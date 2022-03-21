@@ -1,0 +1,1345 @@
+Banque No. 1
+
+	Nom               : Banque de Montréal
+	No. institution   : 001
+	Nombre de clients : 10
+	Nombre de comptes : 32
+
+	DÃ©tails des comptes clients :
+
+		Client No. 1
+
+			PrÃ©nom : Charley
+			Nom    : Porter
+
+				Compte No. 1
+
+					Identifiant   : 92203827
+					Solde chÃ¨ques : 9,058,352.46 $
+					Solde chÃ¨ques : 1,269,793.72 $
+
+				Compte No. 2
+
+					Identifiant   : 35064840
+					Solde chÃ¨ques : 6,324,625.12 $
+					Solde chÃ¨ques : 974,446.63 $
+
+				Compte No. 3
+
+					Identifiant   : 96839968
+					Solde chÃ¨ques : 5,469,199.60 $
+					Solde chÃ¨ques : 9,575,470.46 $
+
+				Compte No. 4
+
+					Identifiant   : 96145025
+					Solde chÃ¨ques : 1,577,279.66 $
+					Solde chÃ¨ques : 9,704,437.81 $
+
+				Compte No. 5
+
+					Identifiant   : 22769771
+					Solde chÃ¨ques : 4,853,451.92 $
+					Solde chÃ¨ques : 8,003,515.68 $
+
+			Total chÃ¨ques : 4,853,451.92 $
+			Total Ã©pargne : 8,003,515.68 $
+
+		Client No. 2
+
+			PrÃ©nom : Jonathan
+			Nom    : Young
+
+				Compte No. 1
+
+					Identifiant   : 96354318
+					Solde chÃ¨ques : 9,155,848.63 $
+					Solde chÃ¨ques : 7,922,105.68 $
+
+				Compte No. 2
+
+					Identifiant   : 86421637
+					Solde chÃ¨ques : 6,560,777.91 $
+					Solde chÃ¨ques : 357,117.00 $
+
+				Compte No. 3
+
+					Identifiant   : 78196611
+					Solde chÃ¨ques : 9,343,281.98 $
+					Solde chÃ¨ques : 6,785,281.84 $
+
+			Total chÃ¨ques : 9,343,281.98 $
+			Total Ã©pargne : 6,785,281.84 $
+
+		Client No. 3
+
+			PrÃ©nom : Josie
+			Nom    : Miller
+
+				Compte No. 1
+
+					Identifiant   : 25406802
+					Solde chÃ¨ques : 3,921,622.69 $
+					Solde chÃ¨ques : 6,556,749.50 $
+
+				Compte No. 2
+
+					Identifiant   : 34923069
+					Solde chÃ¨ques : 7,061,832.95 $
+					Solde chÃ¨ques : 316,304.15 $
+
+				Compte No. 3
+
+					Identifiant   : 84111204
+					Solde chÃ¨ques : 463,297.22 $
+					Solde chÃ¨ques : 973,029.20 $
+
+				Compte No. 4
+
+					Identifiant   : 95519984
+					Solde chÃ¨ques : 6,945,309.50 $
+					Solde chÃ¨ques : 3,170,969.69 $
+
+			Total chÃ¨ques : 6,945,309.50 $
+			Total Ã©pargne : 3,170,969.69 $
+
+		Client No. 4
+
+			PrÃ©nom : Louis
+			Nom    : Stevens
+
+				Compte No. 1
+
+					Identifiant   : 78896511
+					Solde chÃ¨ques : 4,387,444.00 $
+					Solde chÃ¨ques : 3,815,585.00 $
+
+			Total chÃ¨ques : 4,387,444.00 $
+			Total Ã©pargne : 3,815,585.00 $
+
+		Client No. 5
+
+			PrÃ©nom : Lana
+			Nom    : Rivera
+
+				Compte No. 1
+
+					Identifiant   : 50102758
+					Solde chÃ¨ques : 1,868,649.27 $
+					Solde chÃ¨ques : 4,898,955.15 $
+
+				Compte No. 2
+
+					Identifiant   : 77921801
+					Solde chÃ¨ques : 6,463,131.00 $
+					Solde chÃ¨ques : 7,093,414.79 $
+
+				Compte No. 3
+
+					Identifiant   : 68958820
+					Solde chÃ¨ques : 2,757,065.50 $
+					Solde chÃ¨ques : 6,792,120.55 $
+
+				Compte No. 4
+
+					Identifiant   : 54852765
+					Solde chÃ¨ques : 1,621,680.22 $
+					Solde chÃ¨ques : 1,189,486.44 $
+
+			Total chÃ¨ques : 1,621,680.22 $
+			Total Ã©pargne : 1,189,486.44 $
+
+		Client No. 6
+
+			PrÃ©nom : Frédérick
+			Nom    : Flores
+
+				Compte No. 1
+
+					Identifiant   : 30143075
+					Solde chÃ¨ques : 3,404,081.54 $
+					Solde chÃ¨ques : 5,855,353.56 $
+
+				Compte No. 2
+
+					Identifiant   : 55536135
+					Solde chÃ¨ques : 7,508,467.100 $
+					Solde chÃ¨ques : 2,549,337.24 $
+
+				Compte No. 3
+
+					Identifiant   : 96336228
+					Solde chÃ¨ques : 6,990,147.11 $
+					Solde chÃ¨ques : 8,910,509.98 $
+
+				Compte No. 4
+
+					Identifiant   : 23436461
+					Solde chÃ¨ques : 5,471,244.92 $
+					Solde chÃ¨ques : 1,385,185.80 $
+
+				Compte No. 5
+
+					Identifiant   : 32885396
+					Solde chÃ¨ques : 2,576,208.90 $
+					Solde chÃ¨ques : 8,406,332.60 $
+
+			Total chÃ¨ques : 2,576,208.90 $
+			Total Ã©pargne : 8,406,332.60 $
+
+		Client No. 7
+
+			PrÃ©nom : Louisa
+			Nom    : Patterson
+
+				Compte No. 1
+
+					Identifiant   : 41498539
+					Solde chÃ¨ques : 2,434,025.81 $
+					Solde chÃ¨ques : 9,292,788.54 $
+
+				Compte No. 2
+
+					Identifiant   : 65444021
+					Solde chÃ¨ques : 1,967,325.68 $
+					Solde chÃ¨ques : 2,510,917.37 $
+
+				Compte No. 3
+
+					Identifiant   : 84774576
+					Solde chÃ¨ques : 4,732,323.20 $
+					Solde chÃ¨ques : 3,517,064.24 $
+
+				Compte No. 4
+
+					Identifiant   : 92547429
+					Solde chÃ¨ques : 5,850,874.23 $
+					Solde chÃ¨ques : 5,497,295.45 $
+
+				Compte No. 5
+
+					Identifiant   : 77835618
+					Solde chÃ¨ques : 2,856,932.67 $
+					Solde chÃ¨ques : 7,572,494.55 $
+
+			Total chÃ¨ques : 2,856,932.67 $
+			Total Ã©pargne : 7,572,494.55 $
+
+		Client No. 8
+
+			PrÃ©nom : Francis
+			Nom    : Hayes
+
+				Compte No. 1
+
+					Identifiant   : 14855511
+					Solde chÃ¨ques : 5,681,909.75 $
+					Solde chÃ¨ques : 755,825.92 $
+
+				Compte No. 2
+
+					Identifiant   : 94060961
+					Solde chÃ¨ques : 5,310,963.84 $
+					Solde chÃ¨ques : 7,790,639.88 $
+
+			Total chÃ¨ques : 5,310,963.84 $
+			Total Ã©pargne : 7,790,639.88 $
+
+		Client No. 9
+
+			PrÃ©nom : Patricia
+			Nom    : Duncan
+
+				Compte No. 1
+
+					Identifiant   : 11071187
+					Solde chÃ¨ques : 5,690,528.26 $
+					Solde chÃ¨ques : 4,694,054.16 $
+
+			Total chÃ¨ques : 5,690,528.26 $
+			Total Ã©pargne : 4,694,054.16 $
+
+		Client No. 10
+
+			PrÃ©nom : Yannick
+			Nom    : Russell
+
+				Compte No. 1
+
+					Identifiant   : 38009354
+					Solde chÃ¨ques : 1,621,276.20 $
+					Solde chÃ¨ques : 7,941,379.50 $
+
+				Compte No. 2
+
+					Identifiant   : 64178375
+					Solde chÃ¨ques : 5,286,386.97 $
+					Solde chÃ¨ques : 1,656,712.91 $
+
+			Total chÃ¨ques : 5,286,386.97 $
+			Total Ã©pargne : 1,656,712.91 $
+
+Banque No. 2
+
+	Nom               : Banque Toronto-Dominion
+	No. institution   : 004
+	Nombre de clients : 10
+	Nombre de comptes : 30
+
+	DÃ©tails des comptes clients :
+
+		Client No. 1
+
+			PrÃ©nom : Anna
+			Nom    : Bradley
+
+				Compte No. 1
+
+					Identifiant   : 77333643
+					Solde chÃ¨ques : 6,542,518.84 $
+					Solde chÃ¨ques : 6,895,116.20 $
+
+				Compte No. 2
+
+					Identifiant   : 30607927
+					Solde chÃ¨ques : 4,501,672.13 $
+					Solde chÃ¨ques : 836,110.13 $
+
+			Total chÃ¨ques : 4,501,672.13 $
+			Total Ã©pargne : 836,110.13 $
+
+		Client No. 2
+
+			PrÃ©nom : Sébastien
+			Nom    : Rodriguez
+
+				Compte No. 1
+
+					Identifiant   : 58450819
+					Solde chÃ¨ques : 1,520,990.49 $
+					Solde chÃ¨ques : 8,259,850.32 $
+
+				Compte No. 2
+
+					Identifiant   : 49841044
+					Solde chÃ¨ques : 9,963,682.96 $
+					Solde chÃ¨ques : 782,746.14 $
+
+				Compte No. 3
+
+					Identifiant   : 10417081
+					Solde chÃ¨ques : 1,067,229.61 $
+					Solde chÃ¨ques : 9,617,956.82 $
+
+				Compte No. 4
+
+					Identifiant   : 88182523
+					Solde chÃ¨ques : 7,747,929.91 $
+					Solde chÃ¨ques : 8,174,254.61 $
+
+				Compte No. 5
+
+					Identifiant   : 33388336
+					Solde chÃ¨ques : 845,154.68 $
+					Solde chÃ¨ques : 3,996,937.32 $
+
+			Total chÃ¨ques : 845,154.68 $
+			Total Ã©pargne : 3,996,937.32 $
+
+		Client No. 3
+
+			PrÃ©nom : Joanie
+			Nom    : Willis
+
+				Compte No. 1
+
+					Identifiant   : 26366233
+					Solde chÃ¨ques : 4,315,455.33 $
+					Solde chÃ¨ques : 9,109,049.97 $
+
+				Compte No. 2
+
+					Identifiant   : 22246171
+					Solde chÃ¨ques : 2,635,957.20 $
+					Solde chÃ¨ques : 1,452,643.31 $
+
+				Compte No. 3
+
+					Identifiant   : 59487418
+					Solde chÃ¨ques : 8,691,743.30 $
+					Solde chÃ¨ques : 5,798,574.12 $
+
+				Compte No. 4
+
+					Identifiant   : 65984962
+					Solde chÃ¨ques : 1,447,000.95 $
+					Solde chÃ¨ques : 8,533,758.86 $
+
+				Compte No. 5
+
+					Identifiant   : 46162723
+					Solde chÃ¨ques : 3,508,600.54 $
+					Solde chÃ¨ques : 5,135,390.93 $
+
+			Total chÃ¨ques : 3,508,600.54 $
+			Total Ã©pargne : 5,135,390.93 $
+
+		Client No. 4
+
+			PrÃ©nom : Pierre
+			Nom    : Wallace
+
+				Compte No. 1
+
+					Identifiant   : 26551701
+					Solde chÃ¨ques : 2,399,162.00 $
+					Solde chÃ¨ques : 1,234,341.28 $
+
+			Total chÃ¨ques : 2,399,162.00 $
+			Total Ã©pargne : 1,234,341.28 $
+
+		Client No. 5
+
+			PrÃ©nom : Kim
+			Nom    : Reyes
+
+				Compte No. 1
+
+					Identifiant   : 91244449
+					Solde chÃ¨ques : 4,170,596.53 $
+					Solde chÃ¨ques : 497,000.43 $
+
+				Compte No. 2
+
+					Identifiant   : 54032737
+					Solde chÃ¨ques : 9,448,919.92 $
+					Solde chÃ¨ques : 4,908,171.60 $
+
+			Total chÃ¨ques : 9,448,919.92 $
+			Total Ã©pargne : 4,908,171.60 $
+
+		Client No. 6
+
+			PrÃ©nom : Florent
+			Nom    : Barnes
+
+				Compte No. 1
+
+					Identifiant   : 20008248
+					Solde chÃ¨ques : 9,000,768.64 $
+					Solde chÃ¨ques : 3,691,572.19 $
+
+				Compte No. 2
+
+					Identifiant   : 31752216
+					Solde chÃ¨ques : 7,803,456.90 $
+					Solde chÃ¨ques : 3,896,400.13 $
+
+			Total chÃ¨ques : 7,803,456.90 $
+			Total Ã©pargne : 3,896,400.13 $
+
+		Client No. 7
+
+			PrÃ©nom : Léonie
+			Nom    : Moore
+
+				Compte No. 1
+
+					Identifiant   : 94784553
+					Solde chÃ¨ques : 964,995.11 $
+					Solde chÃ¨ques : 1,318,633.55 $
+
+				Compte No. 2
+
+					Identifiant   : 15380159
+					Solde chÃ¨ques : 9,563,349.57 $
+					Solde chÃ¨ques : 5,752,616.57 $
+
+				Compte No. 3
+
+					Identifiant   : 83907463
+					Solde chÃ¨ques : 2,346,734.30 $
+					Solde chÃ¨ques : 3,530,558.20 $
+
+			Total chÃ¨ques : 2,346,734.30 $
+			Total Ã©pargne : 3,530,558.20 $
+
+		Client No. 8
+
+			PrÃ©nom : Michel
+			Nom    : Adams
+
+				Compte No. 1
+
+					Identifiant   : 68420393
+					Solde chÃ¨ques : 431,174.29 $
+					Solde chÃ¨ques : 1,692,445.36 $
+
+			Total chÃ¨ques : 431,174.29 $
+			Total Ã©pargne : 1,692,445.36 $
+
+		Client No. 9
+
+			PrÃ©nom : Nathalie
+			Nom    : Vasquez
+
+				Compte No. 1
+
+					Identifiant   : 59230800
+					Solde chÃ¨ques : 6,481,162.49 $
+					Solde chÃ¨ques : 4,509,793.36 $
+
+				Compte No. 2
+
+					Identifiant   : 27005952
+					Solde chÃ¨ques : 2,960,763.47 $
+					Solde chÃ¨ques : 7,444,177.77 $
+
+				Compte No. 3
+
+					Identifiant   : 43163614
+					Solde chÃ¨ques : 6,867,864.15 $
+					Solde chÃ¨ques : 1,832,573.97 $
+
+				Compte No. 4
+
+					Identifiant   : 17301320
+					Solde chÃ¨ques : 6,255,655.33 $
+					Solde chÃ¨ques : 7,803,598.71 $
+
+			Total chÃ¨ques : 6,255,655.33 $
+			Total Ã©pargne : 7,803,598.71 $
+
+		Client No. 10
+
+			PrÃ©nom : Charles
+			Nom    : Bryant
+
+				Compte No. 1
+
+					Identifiant   : 49227273
+					Solde chÃ¨ques : 7,753,935.22 $
+					Solde chÃ¨ques : 4,867,248.12 $
+
+				Compte No. 2
+
+					Identifiant   : 55765779
+					Solde chÃ¨ques : 4,470,328.84 $
+					Solde chÃ¨ques : 3,061,959.94 $
+
+				Compte No. 3
+
+					Identifiant   : 81534827
+					Solde chÃ¨ques : 5,108,951.46 $
+					Solde chÃ¨ques : 8,173,894.70 $
+
+				Compte No. 4
+
+					Identifiant   : 83042241
+					Solde chÃ¨ques : 6,441,335.32 $
+					Solde chÃ¨ques : 3,786,094.00 $
+
+				Compte No. 5
+
+					Identifiant   : 94510140
+					Solde chÃ¨ques : 5,324,448.70 $
+					Solde chÃ¨ques : 3,504,980.52 $
+
+			Total chÃ¨ques : 5,324,448.70 $
+			Total Ã©pargne : 3,504,980.52 $
+
+Banque No. 3
+
+	Nom               : Banque royale du Canada
+	No. institution   : 003
+	Nombre de clients : 10
+	Nombre de comptes : 35
+
+	DÃ©tails des comptes clients :
+
+		Client No. 1
+
+			PrÃ©nom : Pénélope
+			Nom    : Martin
+
+				Compte No. 1
+
+					Identifiant   : 62834023
+					Solde chÃ¨ques : 5,501,564.00 $
+					Solde chÃ¨ques : 6,224,751.00 $
+
+				Compte No. 2
+
+					Identifiant   : 52383101
+					Solde chÃ¨ques : 2,077,900.46 $
+					Solde chÃ¨ques : 3,012,646.21 $
+
+				Compte No. 3
+
+					Identifiant   : 27528786
+					Solde chÃ¨ques : 2,305,090.55 $
+					Solde chÃ¨ques : 8,440,332.78 $
+
+				Compte No. 4
+
+					Identifiant   : 30489787
+					Solde chÃ¨ques : 2,260,989.42 $
+					Solde chÃ¨ques : 1,710,397.91 $
+
+				Compte No. 5
+
+					Identifiant   : 93104167
+					Solde chÃ¨ques : 4,356,987.00 $
+					Solde chÃ¨ques : 3,110,047.46 $
+
+			Total chÃ¨ques : 4,356,987.00 $
+			Total Ã©pargne : 3,110,047.46 $
+
+		Client No. 2
+
+			PrÃ©nom : Claude
+			Nom    : Butler
+
+				Compte No. 1
+
+					Identifiant   : 98177354
+					Solde chÃ¨ques : 1,848,662.42 $
+					Solde chÃ¨ques : 9,048,545.49 $
+
+				Compte No. 2
+
+					Identifiant   : 33225823
+					Solde chÃ¨ques : 4,386,276.65 $
+					Solde chÃ¨ques : 1,112,605.22 $
+
+				Compte No. 3
+
+					Identifiant   : 33599058
+					Solde chÃ¨ques : 4,087,199.00 $
+					Solde chÃ¨ques : 5,949,113.68 $
+
+			Total chÃ¨ques : 4,087,199.00 $
+			Total Ã©pargne : 5,949,113.68 $
+
+		Client No. 3
+
+			PrÃ©nom : Stéphanie
+			Nom    : Ryan
+
+				Compte No. 1
+
+					Identifiant   : 20567589
+					Solde chÃ¨ques : 7,112,176.50 $
+					Solde chÃ¨ques : 2,218,363.12 $
+
+				Compte No. 2
+
+					Identifiant   : 48175008
+					Solde chÃ¨ques : 2,965,595.20 $
+					Solde chÃ¨ques : 3,186,367.89 $
+
+				Compte No. 3
+
+					Identifiant   : 33623401
+					Solde chÃ¨ques : 5,079,068.27 $
+					Solde chÃ¨ques : 859,259.74 $
+
+				Compte No. 4
+
+					Identifiant   : 93596872
+					Solde chÃ¨ques : 8,008,146.11 $
+					Solde chÃ¨ques : 293,201.22 $
+
+			Total chÃ¨ques : 8,008,146.11 $
+			Total Ã©pargne : 293,201.22 $
+
+		Client No. 4
+
+			PrÃ©nom : Mathieu
+			Nom    : Arnold
+
+				Compte No. 1
+
+					Identifiant   : 31355522
+					Solde chÃ¨ques : 4,885,114.90 $
+					Solde chÃ¨ques : 5,785,058.86 $
+
+				Compte No. 2
+
+					Identifiant   : 59212515
+					Solde chÃ¨ques : 4,587,943.12 $
+					Solde chÃ¨ques : 9,632,673.17 $
+
+				Compte No. 3
+
+					Identifiant   : 54000797
+					Solde chÃ¨ques : 5,209,187.90 $
+					Solde chÃ¨ques : 2,311,536.87 $
+
+				Compte No. 4
+
+					Identifiant   : 45596370
+					Solde chÃ¨ques : 6,242,491.57 $
+					Solde chÃ¨ques : 6,792,783.60 $
+
+			Total chÃ¨ques : 6,242,491.57 $
+			Total Ã©pargne : 6,792,783.60 $
+
+		Client No. 5
+
+			PrÃ©nom : Sylvie
+			Nom    : Morrison
+
+				Compte No. 1
+
+					Identifiant   : 89665120
+					Solde chÃ¨ques : 9,878,099.34 $
+					Solde chÃ¨ques : 379,376.81 $
+
+				Compte No. 2
+
+					Identifiant   : 18884105
+					Solde chÃ¨ques : 9,129,266.19 $
+					Solde chÃ¨ques : 7,961,839.00 $
+
+			Total chÃ¨ques : 9,129,266.19 $
+			Total Ã©pargne : 7,961,839.00 $
+
+		Client No. 6
+
+			PrÃ©nom : Marc
+			Nom    : Jordan
+
+				Compte No. 1
+
+					Identifiant   : 22289783
+					Solde chÃ¨ques : 3,353,569.00 $
+					Solde chÃ¨ques : 6,795,216.77 $
+
+				Compte No. 2
+
+					Identifiant   : 68838161
+					Solde chÃ¨ques : 7,212,275.00 $
+					Solde chÃ¨ques : 1,062,504.73 $
+
+			Total chÃ¨ques : 7,212,275.00 $
+			Total Ã©pargne : 1,062,504.73 $
+
+		Client No. 7
+
+			PrÃ©nom : Francesca
+			Nom    : Chavez
+
+				Compte No. 1
+
+					Identifiant   : 91334850
+					Solde chÃ¨ques : 7,791,706.46 $
+					Solde chÃ¨ques : 7,151,479.39 $
+
+				Compte No. 2
+
+					Identifiant   : 72887125
+					Solde chÃ¨ques : 8,909,805.49 $
+					Solde chÃ¨ques : 3,343,457.31 $
+
+				Compte No. 3
+
+					Identifiant   : 76966683
+					Solde chÃ¨ques : 1,978,550.16 $
+					Solde chÃ¨ques : 303,485.84 $
+
+			Total chÃ¨ques : 1,978,550.16 $
+			Total Ã©pargne : 303,485.84 $
+
+		Client No. 8
+
+			PrÃ©nom : Luc
+			Nom    : Jimenez
+
+				Compte No. 1
+
+					Identifiant   : 64887998
+					Solde chÃ¨ques : 4,797,454.17 $
+					Solde chÃ¨ques : 9,048,520.72 $
+
+				Compte No. 2
+
+					Identifiant   : 82494048
+					Solde chÃ¨ques : 6,175,516.96 $
+					Solde chÃ¨ques : 8,592,985.13 $
+
+				Compte No. 3
+
+					Identifiant   : 31593881
+					Solde chÃ¨ques : 5,768,751.94 $
+					Solde chÃ¨ques : 1,830,001.66 $
+
+			Total chÃ¨ques : 5,768,751.94 $
+			Total Ã©pargne : 1,830,001.66 $
+
+		Client No. 9
+
+			PrÃ©nom : Simone
+			Nom    : Meyer
+
+				Compte No. 1
+
+					Identifiant   : 25113443
+					Solde chÃ¨ques : 288,073.14 $
+					Solde chÃ¨ques : 4,898,156.32 $
+
+				Compte No. 2
+
+					Identifiant   : 55042446
+					Solde chÃ¨ques : 9,786,869.48 $
+					Solde chÃ¨ques : 7,127,978.91 $
+
+				Compte No. 3
+
+					Identifiant   : 71377471
+					Solde chÃ¨ques : 4,710,036.45 $
+					Solde chÃ¨ques : 594,090.90 $
+
+				Compte No. 4
+
+					Identifiant   : 56948486
+					Solde chÃ¨ques : 426,852.30 $
+					Solde chÃ¨ques : 716,888.57 $
+
+				Compte No. 5
+
+					Identifiant   : 83579238
+					Solde chÃ¨ques : 966,685.78 $
+					Solde chÃ¨ques : 8,181,494.21 $
+
+			Total chÃ¨ques : 966,685.78 $
+			Total Ã©pargne : 8,181,494.21 $
+
+		Client No. 10
+
+			PrÃ©nom : Jean
+			Nom    : Lopez
+
+				Compte No. 1
+
+					Identifiant   : 56673545
+					Solde chÃ¨ques : 1,500,999.48 $
+					Solde chÃ¨ques : 6,595,494.63 $
+
+				Compte No. 2
+
+					Identifiant   : 82029751
+					Solde chÃ¨ques : 9,728,933.47 $
+					Solde chÃ¨ques : 6,488,602.27 $
+
+				Compte No. 3
+
+					Identifiant   : 84278241
+					Solde chÃ¨ques : 4,538,378.40 $
+					Solde chÃ¨ques : 4,327,624.51 $
+
+				Compte No. 4
+
+					Identifiant   : 25604976
+					Solde chÃ¨ques : 837,014.42 $
+					Solde chÃ¨ques : 1,329,497.98 $
+
+			Total chÃ¨ques : 837,014.42 $
+			Total Ã©pargne : 1,329,497.98 $
+
+Banque No. 4
+
+	Nom               : Banque canadienne impériale de commerce
+	No. institution   : 010
+	Nombre de clients : 10
+	Nombre de comptes : 29
+
+	DÃ©tails des comptes clients :
+
+		Client No. 1
+
+			PrÃ©nom : Michaeala
+			Nom    : Harris
+
+				Compte No. 1
+
+					Identifiant   : 15442407
+					Solde chÃ¨ques : 8,312,754.96 $
+					Solde chÃ¨ques : 8,030,177.26 $
+
+				Compte No. 2
+
+					Identifiant   : 47511952
+					Solde chÃ¨ques : 3,991,613.34 $
+					Solde chÃ¨ques : 5,268,862.60 $
+
+			Total chÃ¨ques : 3,991,613.34 $
+			Total Ã©pargne : 5,268,862.60 $
+
+		Client No. 2
+
+			PrÃ©nom : Steven
+			Nom    : Stevens
+
+				Compte No. 1
+
+					Identifiant   : 48848605
+					Solde chÃ¨ques : 6,280,695.91 $
+					Solde chÃ¨ques : 2,921,395.49 $
+
+				Compte No. 2
+
+					Identifiant   : 25045157
+					Solde chÃ¨ques : 157,837.19 $
+					Solde chÃ¨ques : 9,842,387.58 $
+
+				Compte No. 3
+
+					Identifiant   : 27830657
+					Solde chÃ¨ques : 1,061,236.72 $
+					Solde chÃ¨ques : 3,723,944.90 $
+
+				Compte No. 4
+
+					Identifiant   : 95646741
+					Solde chÃ¨ques : 4,895,136.12 $
+					Solde chÃ¨ques : 3,391,185.61 $
+
+			Total chÃ¨ques : 4,895,136.12 $
+			Total Ã©pargne : 3,391,185.61 $
+
+		Client No. 3
+
+			PrÃ©nom : Mélanie
+			Nom    : James
+
+				Compte No. 1
+
+					Identifiant   : 34220749
+					Solde chÃ¨ques : 524,755.34 $
+					Solde chÃ¨ques : 7,378,206.94 $
+
+				Compte No. 2
+
+					Identifiant   : 94846328
+					Solde chÃ¨ques : 4,225,087.95 $
+					Solde chÃ¨ques : 5,479,777.33 $
+
+				Compte No. 3
+
+					Identifiant   : 37130946
+					Solde chÃ¨ques : 4,175,247.69 $
+					Solde chÃ¨ques : 9,834,302.51 $
+
+				Compte No. 4
+
+					Identifiant   : 58521382
+					Solde chÃ¨ques : 7,007,454.90 $
+					Solde chÃ¨ques : 6,658,485.74 $
+
+				Compte No. 5
+
+					Identifiant   : 26031921
+					Solde chÃ¨ques : 6,983,077.29 $
+					Solde chÃ¨ques : 6,667,166.61 $
+
+			Total chÃ¨ques : 6,983,077.29 $
+			Total Ã©pargne : 6,667,166.61 $
+
+		Client No. 4
+
+			PrÃ©nom : Joseph
+			Nom    : Allen
+
+				Compte No. 1
+
+					Identifiant   : 12934074
+					Solde chÃ¨ques : 9,989,427.92 $
+					Solde chÃ¨ques : 1,706,150.26 $
+
+			Total chÃ¨ques : 9,989,427.92 $
+			Total Ã©pargne : 1,706,150.26 $
+
+		Client No. 5
+
+			PrÃ©nom : Isabelle
+			Nom    : Vasquez
+
+				Compte No. 1
+
+					Identifiant   : 27138994
+					Solde chÃ¨ques : 8,820,837.16 $
+					Solde chÃ¨ques : 6,691,756.38 $
+
+				Compte No. 2
+
+					Identifiant   : 98347415
+					Solde chÃ¨ques : 3,692,285.14 $
+					Solde chÃ¨ques : 4,607,522.51 $
+
+				Compte No. 3
+
+					Identifiant   : 68028808
+					Solde chÃ¨ques : 1,561,805.97 $
+					Solde chÃ¨ques : 8,557,517.38 $
+
+			Total chÃ¨ques : 1,561,805.97 $
+			Total Ã©pargne : 8,557,517.38 $
+
+		Client No. 6
+
+			PrÃ©nom : Yvan
+			Nom    : Scott
+
+				Compte No. 1
+
+					Identifiant   : 53381986
+					Solde chÃ¨ques : 1,908,730.29 $
+					Solde chÃ¨ques : 4,280,542.87 $
+
+				Compte No. 2
+
+					Identifiant   : 30356891
+					Solde chÃ¨ques : 1,206,823.81 $
+					Solde chÃ¨ques : 5,894,638.78 $
+
+			Total chÃ¨ques : 1,206,823.81 $
+			Total Ã©pargne : 5,894,638.78 $
+
+		Client No. 7
+
+			PrÃ©nom : Béatrice
+			Nom    : Sanchez
+
+				Compte No. 1
+
+					Identifiant   : 36139660
+					Solde chÃ¨ques : 5,829,864.00 $
+					Solde chÃ¨ques : 2,519,204.88 $
+
+				Compte No. 2
+
+					Identifiant   : 84193864
+					Solde chÃ¨ques : 6,167,565.39 $
+					Solde chÃ¨ques : 2,653,901.79 $
+
+			Total chÃ¨ques : 6,167,565.39 $
+			Total Ã©pargne : 2,653,901.79 $
+
+		Client No. 8
+
+			PrÃ©nom : Lorne
+			Nom    : Morales
+
+				Compte No. 1
+
+					Identifiant   : 62566240
+					Solde chÃ¨ques : 7,306,096.15 $
+					Solde chÃ¨ques : 3,434,925.60 $
+
+				Compte No. 2
+
+					Identifiant   : 89168835
+					Solde chÃ¨ques : 1,078,425.28 $
+					Solde chÃ¨ques : 9,063,807.44 $
+
+				Compte No. 3
+
+					Identifiant   : 63492062
+					Solde chÃ¨ques : 8,178,833.83 $
+					Solde chÃ¨ques : 2,607,819.74 $
+
+				Compte No. 4
+
+					Identifiant   : 38144700
+					Solde chÃ¨ques : 225,374.40 $
+					Solde chÃ¨ques : 4,252,984.51 $
+
+				Compte No. 5
+
+					Identifiant   : 48059712
+					Solde chÃ¨ques : 1,616,029.50 $
+					Solde chÃ¨ques : 1,789,742.41 $
+
+			Total chÃ¨ques : 1,616,029.50 $
+			Total Ã©pargne : 1,789,742.41 $
+
+		Client No. 9
+
+			PrÃ©nom : Anabelle
+			Nom    : Rodriguez
+
+				Compte No. 1
+
+					Identifiant   : 72635438
+					Solde chÃ¨ques : 5,986,001.68 $
+					Solde chÃ¨ques : 4,713,044.10 $
+
+			Total chÃ¨ques : 5,986,001.68 $
+			Total Ã©pargne : 4,713,044.10 $
+
+		Client No. 10
+
+			PrÃ©nom : William
+			Nom    : Ruiz
+
+				Compte No. 1
+
+					Identifiant   : 16192549
+					Solde chÃ¨ques : 6,386,449.37 $
+					Solde chÃ¨ques : 334,240.99 $
+
+				Compte No. 2
+
+					Identifiant   : 68900114
+					Solde chÃ¨ques : 3,196,205.26 $
+					Solde chÃ¨ques : 5,310,351.32 $
+
+				Compte No. 3
+
+					Identifiant   : 74652305
+					Solde chÃ¨ques : 4,077,580.58 $
+					Solde chÃ¨ques : 8,199,284.93 $
+
+				Compte No. 4
+
+					Identifiant   : 39263112
+					Solde chÃ¨ques : 9,686,277.92 $
+					Solde chÃ¨ques : 5,316,767.66 $
+
+			Total chÃ¨ques : 9,686,277.92 $
+			Total Ã©pargne : 5,316,767.66 $
+
+Banque No. 5
+
+	Nom               : Banque Scotia
+	No. institution   : 002
+	Nombre de clients : 10
+	Nombre de comptes : 24
+
+	DÃ©tails des comptes clients :
+
+		Client No. 1
+
+			PrÃ©nom : Anastasia
+			Nom    : Murphy
+
+				Compte No. 1
+
+					Identifiant   : 48110763
+					Solde chÃ¨ques : 6,111,145.77 $
+					Solde chÃ¨ques : 7,786,927.50 $
+
+			Total chÃ¨ques : 6,111,145.77 $
+			Total Ã©pargne : 7,786,927.50 $
+
+		Client No. 2
+
+			PrÃ©nom : Tim
+			Nom    : Lopez
+
+				Compte No. 1
+
+					Identifiant   : 35290477
+					Solde chÃ¨ques : 2,663,407.78 $
+					Solde chÃ¨ques : 1,539,288.60 $
+
+			Total chÃ¨ques : 2,663,407.78 $
+			Total Ã©pargne : 1,539,288.60 $
+
+		Client No. 3
+
+			PrÃ©nom : Annie
+			Nom    : Wood
+
+				Compte No. 1
+
+					Identifiant   : 88783443
+					Solde chÃ¨ques : 5,268,350.94 $
+					Solde chÃ¨ques : 4,575,886.00 $
+
+				Compte No. 2
+
+					Identifiant   : 67393819
+					Solde chÃ¨ques : 5,180,223.41 $
+					Solde chÃ¨ques : 9,432,362.67 $
+
+				Compte No. 3
+
+					Identifiant   : 70851007
+					Solde chÃ¨ques : 9,576,796.47 $
+					Solde chÃ¨ques : 2,399,886.94 $
+
+			Total chÃ¨ques : 9,576,796.47 $
+			Total Ã©pargne : 2,399,886.94 $
+
+		Client No. 4
+
+			PrÃ©nom : Nick
+			Nom    : Brooks
+
+				Compte No. 1
+
+					Identifiant   : 16119350
+					Solde chÃ¨ques : 6,719,225.60 $
+					Solde chÃ¨ques : 6,952,432.59 $
+
+				Compte No. 2
+
+					Identifiant   : 70104945
+					Solde chÃ¨ques : 2,549,524.73 $
+					Solde chÃ¨ques : 2,241,902.30 $
+
+			Total chÃ¨ques : 2,549,524.73 $
+			Total Ã©pargne : 2,241,902.30 $
+
+		Client No. 5
+
+			PrÃ©nom : Stéphanie
+			Nom    : Nelson
+
+				Compte No. 1
+
+					Identifiant   : 70779886
+					Solde chÃ¨ques : 3,442,978.33 $
+					Solde chÃ¨ques : 7,803,741.68 $
+
+				Compte No. 2
+
+					Identifiant   : 44809408
+					Solde chÃ¨ques : 65,409.64 $
+					Solde chÃ¨ques : 6,019,448.76 $
+
+				Compte No. 3
+
+					Identifiant   : 51620424
+					Solde chÃ¨ques : 9,163,230.61 $
+					Solde chÃ¨ques : 13,933.12 $
+
+				Compte No. 4
+
+					Identifiant   : 79314375
+					Solde chÃ¨ques : 4,240,852.90 $
+					Solde chÃ¨ques : 4,609,493.60 $
+
+				Compte No. 5
+
+					Identifiant   : 52422144
+					Solde chÃ¨ques : 3,222,571.75 $
+					Solde chÃ¨ques : 7,845,977.16 $
+
+			Total chÃ¨ques : 3,222,571.75 $
+			Total Ã©pargne : 7,845,977.16 $
+
+		Client No. 6
+
+			PrÃ©nom : Nathaniel
+			Nom    : Butler
+
+				Compte No. 1
+
+					Identifiant   : 52613739
+					Solde chÃ¨ques : 1,759,675.70 $
+					Solde chÃ¨ques : 7,214,212.92 $
+
+			Total chÃ¨ques : 1,759,675.70 $
+			Total Ã©pargne : 7,214,212.92 $
+
+		Client No. 7
+
+			PrÃ©nom : Laurence
+			Nom    : Reyes
+
+				Compte No. 1
+
+					Identifiant   : 27257073
+					Solde chÃ¨ques : 3,408,420.35 $
+					Solde chÃ¨ques : 6,076,001.80 $
+
+			Total chÃ¨ques : 3,408,420.35 $
+			Total Ã©pargne : 6,076,001.80 $
+
+		Client No. 8
+
+			PrÃ©nom : Alexander
+			Nom    : Dixon
+
+				Compte No. 1
+
+					Identifiant   : 34215543
+					Solde chÃ¨ques : 2,432,022.49 $
+					Solde chÃ¨ques : 9,177,466.84 $
+
+				Compte No. 2
+
+					Identifiant   : 35874836
+					Solde chÃ¨ques : 7,654,676.64 $
+					Solde chÃ¨ques : 1,886,774.54 $
+
+				Compte No. 3
+
+					Identifiant   : 71502692
+					Solde chÃ¨ques : 909,027.50 $
+					Solde chÃ¨ques : 5,760,175.23 $
+
+				Compte No. 4
+
+					Identifiant   : 67999850
+					Solde chÃ¨ques : 5,461,235.98 $
+					Solde chÃ¨ques : 4,258,761.54 $
+
+			Total chÃ¨ques : 5,461,235.98 $
+			Total Ã©pargne : 4,258,761.54 $
+
+		Client No. 9
+
+			PrÃ©nom : Marie-Andrée
+			Nom    : Fisher
+
+				Compte No. 1
+
+					Identifiant   : 95065670
+					Solde chÃ¨ques : 6,791,598.11 $
+					Solde chÃ¨ques : 6,359,613.35 $
+
+				Compte No. 2
+
+					Identifiant   : 31260752
+					Solde chÃ¨ques : 2,089,129.82 $
+					Solde chÃ¨ques : 7,089,669.82 $
+
+				Compte No. 3
+
+					Identifiant   : 50512393
+					Solde chÃ¨ques : 1,194,390.68 $
+					Solde chÃ¨ques : 6,071,843.57 $
+
+				Compte No. 4
+
+					Identifiant   : 79325696
+					Solde chÃ¨ques : 4,591,857.74 $
+					Solde chÃ¨ques : 6,618,771.42 $
+
+			Total chÃ¨ques : 4,591,857.74 $
+			Total Ã©pargne : 6,618,771.42 $
+
+		Client No. 10
+
+			PrÃ©nom : Tanner
+			Nom    : Jones
+
+				Compte No. 1
+
+					Identifiant   : 85773623
+					Solde chÃ¨ques : 6,618,508.11 $
+					Solde chÃ¨ques : 4,159,050.75 $
+
+				Compte No. 2
+
+					Identifiant   : 65211466
+					Solde chÃ¨ques : 8,326,488.90 $
+					Solde chÃ¨ques : 2,564,627.80 $
+
+			Total chÃ¨ques : 8,326,488.90 $
+			Total Ã©pargne : 2,564,627.80 $
+
