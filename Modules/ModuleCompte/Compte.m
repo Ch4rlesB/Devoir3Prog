@@ -4,7 +4,7 @@ classdef Compte < handle
 %
     properties (Access = private)
     identifant = char.empty();
-    client = Client();
+    client = Client.empty();
     soldeCheque = 0;
     soldeEpargne = 0;
     end
@@ -12,7 +12,7 @@ classdef Compte < handle
     methods (Access = public)
         function compte = Compte(identifiant,client)
             assert(nargin ~=0);
-            validateattributes(identifiant,{'char'},{'nonnegative'});
+            validateattributes(identifiant,{'char'},{'row'});
 
             compte.client = client;
             compte.identifant = identifiant;
