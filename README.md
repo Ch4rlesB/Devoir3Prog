@@ -1,7 +1,9 @@
 # Devoir3Prog
 
-alek cyr
+# A ENLEVER AVANT LA REMISE
 
-kristpohe Damourr
-Jocelyn Dubuc
+alek cyr
+charles barette
+kristophe Damour
+jocelyn Dubuc
 
