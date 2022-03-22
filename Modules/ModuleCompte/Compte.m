@@ -11,11 +11,12 @@ classdef Compte < handle
 
     methods (Access = public)
         function compte = Compte(identifiant,client)
-            assert(nargin ~=0);
-            validateattributes(identifiant,{'char'},{'row'});
-
-            compte.client = client;
-            compte.identifant = identifiant;
+            if nargin ~=0
+                validateattributes(identifiant,{'char'},{'row'});
+            
+                compte.client = client;
+                compte.identifant = identifiant;
+            end
         end
         function [valeurLue] = getIdentifiant(compte)
             valeurLue = compte.identifant;
@@ -52,7 +53,7 @@ classdef Compte < handle
             ref.soldeCheques = ref.soldeCheques + montant;
         end    
 
-        function depotEpargne(ref, montant)
+        function DepotEpargne(ref, montant)
             validateattributes(montant,{'double'},{'nonnegative','scalar'});
             ref.soldeEpargne = ref.soldeEpargne + montant;
         end

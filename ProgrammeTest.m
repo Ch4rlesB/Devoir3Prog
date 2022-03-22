@@ -6,9 +6,10 @@ ConfigurerProjet;
 client1 = Client('charles','barette','123456789');
 
 comptePatate1 = Compte('epargnes1',client1);
-client1.ajouterCompte(comptePatate1);
+client1.AjouterCompte(comptePatate1);
 
+compteAVerifier=client1.ObtenirCompte(1);
 
-fprintf('nom du compte: %s',client1.ObtenirCompte(1));
+fprintf('nom du compte: %s',compteAVerifier.getIdentifiant());
 
 end
