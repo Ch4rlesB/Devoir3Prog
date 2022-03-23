@@ -3,7 +3,7 @@ classdef Compte < handle
 % 
 %
     properties (Access = private)
-    identifant = char.empty();
+    identifiant = char.empty();
     client = Client.empty();
     soldeCheque = 0;
     soldeEpargne = 0;
@@ -15,28 +15,28 @@ classdef Compte < handle
                 validateattributes(identifiant,{'char'},{'row'});
             
                 compte.client = client;
-                compte.identifant = identifiant;
+                compte.identifiant = identifiant;
             end
         end
-        function [valeurLue] = getIdentifiant(compte)
-            valeurLue = compte.identifant;
+        function valeurLue = getIdentifiant(compte)
+            valeurLue = compte.identifiant;
         end
 
-        function [valeurLue] = getProprietaire(compte)
+        function valeurLue = getProprietaire(compte)
             valeurLue = compte.client;
         end
         
-        function [valeurLue] = getSoldeCheque(compte)
+        function valeurLue = getSoldeCheque(compte)
             valeurLue = compte.soldeCheque;
         end
-        function [valeurLue] = getSoldeEpargne(compte)
+        function valeurLue = getSoldeEpargne(compte)
             valeurLue = compte.soldeEpargne;
         end
 
         function valeurResultat = eq(ref,compteComp)
             valeurResultat = 0;
-            if isequal(compteComp,Compte)
-                if compteComp.getIdentifiant() == ref.identifiant 
+            if isa(compteComp,'Compte')
+                if strcmp(compteComp.getIdentifiant(),ref.identifiant) 
                     if compteComp.getProprietaire() == ref.client 
                         if compteComp.getSoldeCheque() == ref.soldeCheque
                             if compteComp.getSoldeEpargne() == ref.soldeEpargne

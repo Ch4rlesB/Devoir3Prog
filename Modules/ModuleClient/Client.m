@@ -50,7 +50,7 @@ classdef Client < handle
         
             validateattributes(nouveauCompte,{'Compte'},{'scalar'});
             for i=1:size(ref.compteTab,2)
-                assert(nouveauCompte==ref.compteTab(i),'Ce compte est deja relier a ce profil client.');
+                assert(nouveauCompte~=ref.compteTab(i),'Ce compte est deja relier a ce profil client.');
             end
             ref.compteTab = [ref.compteTab;nouveauCompte];
             ref.nbCompte = ref.nbCompte + 1;
