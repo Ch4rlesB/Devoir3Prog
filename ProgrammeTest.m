@@ -10,7 +10,7 @@ comptePouletBeurre1 = Compte('celi1',client1);
 client1.AjouterCompte(comptePouletBeurre1);
 client1.AjouterCompte(comptePatate1);
 
-compteAVerifier=client1.ObtenirCompte(2);
+compteAVerifier=client1.ObtenirCompte(1);
 
 fprintf('nom du compte: %s',compteAVerifier.getIdentifiant());
 
