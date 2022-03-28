@@ -6,11 +6,13 @@ classdef Banque < handle
     nom = char.empty();
     numero = char.empty();
     nbClients = 0;
+    nbComptes = 0;
     tabClients = Client.empty();
+    tabComptes = Comptes.empty();
     end
 
     methods (Access = public)
-        function Banque = Banque()
+        function nouvelleBanque = Banque(nomBanque,numInst, tabClientsImp)
           
         end
         
