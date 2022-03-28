@@ -18,6 +18,7 @@ classdef Compte < handle
                 compte.identifiant = identifiant;
             end
         end
+        
         function valeurLue = getIdentifiant(compte)
             valeurLue = compte.identifiant;
         end
