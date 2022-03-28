@@ -15,13 +15,16 @@ classdef Banque < handle
         function nouvelleBanque = Banque(nomBanque,numInst, tabClientsImp)
             if nargin == 2
                 validateattributes(nomBanque,{'char'},{'row'});
-                validateattributes(numInst,{'char'},{'row'});                
-                tabClientsImp = [nouvelleBanque.AjouterClient,tabClientsImp];
+                validateattributes(numInst,{'char'},{'row'});     
             elseif nargin ==3
                 validateattributes(nomBanque,{'char'},{'row'});
                 validateattributes(numInst,{'char'},{'row'});
                 validateattributes(tabClientsImp,{'Client'},{'scalar'});
-                tabClientsImp = [nouvelleBanque.AjouterClient,tabClientsImp];                
+                for i=1:size(tabClientsImp,2)
+                    nouvelleBanque.tabClients = [nouvelleBanque.tabClients;tabClientsImp(i)];
+                    nouvelleBanque.nbClients = nouvelleBanque.nbClients+1; 
+                end
+                                 
             end
 
         end
@@ -42,83 +45,84 @@ classdef Banque < handle
             valeurLue = objet.nbComptes;
         end
 
-        function ObtenirClient(ref, indiceClient)
+        function client = ObtenirClient(ref, indiceClient)
             validateattributes(indiceClient, {'double'},{'scalar','positive'});
-            assert(size(ref.tabClients,2)<=indiceClient);
-            ref.client = ref.tabClients(indiceClient);
+            assert(size(ref.tabClients,2)>=indiceClient);
+            client = ref.tabClients(indiceClient);
         end
         
-        function ObtenirCompte(ref, indiceCompte)
+        function compte = ObtenirCompte(ref, indiceCompte)
             validateattributes(indiceCompte, {'double'},{'scalar','positive'});
-            assert(size(ref.tabComptes,2)<=indiceCompte);
-            ref.Compte = ref.tabComptes(indiceCompte);            
+            assert(size(ref.tabComptes,2)>=indiceCompte);
+            compte = ref.tabComptes(indiceCompte);            
         end
 
         function AjouterClient(ref, nouvClient)
             validateattributes(nouvClient,{'Client'},{'scalar'});
-            for i=1:size(ref.tabComptes,2)
-                assert(nouvClient~=ref.tabComptes(i),'Ce client existe deja dans la base de donnees.');
+            for i=1:size(ref.tabClients,2)
+                assert(nouvClient~=ref.tabClients(i),'Ce client existe deja dans la base de donnees.');
             end            
             ref.tabClients = [ref.tabClients;nouvClient];
             ref.nbClients = ref.nbClients + 1;      
         end
 
-        function AjouterCompte(ref, nouvCompte,Client)
+        function AjouterCompte(ref, nouvCompte,client)
             validateattributes(nouvCompte,{'Compte'},{'scalar'});
-            validateattributes(Client,{'Client'},{'scalar'});
+            validateattributes(client,{'Client'},{'scalar'});
             for i=1:size(ref.tabComptes,2)
-                assert(nouvCompte~=ref.compteTab(i),'Ce compte existe deja dans la base de donnees.');
+                assert(nouvCompte~=ref.tabComptes(i),'Ce compte existe deja dans la base de donnees.');
             end
-            ref.indentifiant = GenererIdentifiantAleatoire;
-            ref.Client = nouvCompte;
-            ref.tabClients = [ref.tabClients,nouvCompte];
+            nouvCompte.indentifiant = GenererIdentifiantAleatoire;
+            nouvCompte.setClient(client);
+            client.AjouterCompte(nouvCompte);
+            ref.tabComptes = [ref.tabComptes;nouvCompte];
             ref.nbComptes = ref.nbComptes+1;
         end
 
-        function [compte] = ObtenirCompteParIdentifiant(ref,identifiant)
+        function compteRetour = ObtenirCompteParIdentifiant(ref,identifiant)
             validateattributes(identifiant,{'double'},{'scalar'});
+            compteRetour = Compte.empty();
             for i=1:size(ref.tabComptes,2)
-                if (ref.tabComptes(i)==identifiant)
-                    compte = identifiant;
-                else
-                    compte = [];
+                if (ref.tabComptes(i).getIdentifiant==identifiant)
+                    compteRetour = [compteRetour;ref.tabComptes(i)];
                 end
             end           
         end
 
-        function [client]=ObtenirCompteParNumAssSociale(ref, nas)
+        function clientRetour=ObtenirCompteParNumAssSociale(ref, nas)
             validateattributes(nas,{'char'},{'scalar'});
+            clientRetour = Client.empty();
             for i=1:size(ref.tabClients,2)
-                if (ref.tabClients(i)==nas)
-                    client = nas;
-                else
-                    client = [];
+                if (ref.tabClients(i).getNumeroAssuranceSociale==nas)
+                    clientRetour = [clientRetour;ref.tabClients(i)];
                 end
             end
         end
 
     end
+
     methods (Access = private)
-        function identifiant = GenererIdentifiantAleatoire(ref)
-            nb = 1;
-            
-            while (nb == 1)
+        function nbAleatoire = GenererIdentifiantAleatoire(ref)
+            estpasunique = 1;
+            while (estpasunique == 1)
                 compteur = 0;
-                nbAleatoire = randi(9);
+                nbAleatoire = char.empty();
+                for j=1:9
+                    nbAleatoire(j) =randi(9); 
+                end
                 for i=1:size(ref.tabComptes,2)
-                    if nbAleatoire==ref.tabComptes(i)
+                    if strcmp(nbAleatoire,ref.tabComptes(i).getidentifiant())
                         compteur=compteur+1;
                     end                 
                     
                 end
                 if compteur>0
-                    nb=1;
+                    estpasunique=1;
                 elseif compteur == 0
-                    nb=-1;
+                    estpasunique=-1;
                 end
                 
-            end
-            identifiant = nbAleatoire;            
+            end            
         end
 
     end

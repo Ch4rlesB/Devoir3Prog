@@ -18,7 +18,7 @@ classdef Compte < handle
                 compte.identifiant = identifiant;
             end
         end
-        
+
         function valeurLue = getIdentifiant(compte)
             valeurLue = compte.identifiant;
         end
@@ -32,6 +32,10 @@ classdef Compte < handle
         end
         function valeurLue = getSoldeEpargne(compte)
             valeurLue = compte.soldeEpargne;
+        end
+
+        function setClient(ref,client)
+            ref.client = client;
         end
 
         function valeurResultat = eq(ref,compteComp)
