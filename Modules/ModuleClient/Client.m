@@ -7,14 +7,14 @@ classdef Client < handle
        compteTab = Compte.empty();        
     end
     methods (Access = public)
-        function nouveauclient = Client (nouvprenom,nouvnom,nouvnas)
+        function nouveauclient = Client (nouvPrenom,nouvNom,nouvNas)
             if nargin~=0
-                validateattributes(nouvprenom,{'char'},{'row'});
+                validateattributes(nouvPrenom,{'char'},{'row'});
                 validateattributes(nouvnom,{'char'},{'row'});
                 validateattributes(nouvnas,{'char'},{'row','size' , [1,9]});
-                nouveauclient.prenom = nouvprenom;
-                nouveauclient.nom = nouvnom;
-                nouveauclient.nas=nouvnas;   
+                nouveauclient.prenom = nouvPrenom;
+                nouveauclient.nom = nouvNom;
+                nouveauclient.nas=nouvNas;   
             end
         end
 
