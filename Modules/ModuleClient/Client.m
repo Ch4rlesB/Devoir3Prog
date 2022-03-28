@@ -10,8 +10,8 @@ classdef Client < handle
         function nouveauclient = Client (nouvPrenom,nouvNom,nouvNas)
             if nargin~=0
                 validateattributes(nouvPrenom,{'char'},{'row'});
-                validateattributes(nouvnom,{'char'},{'row'});
-                validateattributes(nouvnas,{'char'},{'row','size' , [1,9]});
+                validateattributes(nouvNom,{'char'},{'row'});
+                validateattributes(nouvNas,{'char'},{'row','size' , [1,9]});
                 nouveauclient.prenom = nouvPrenom;
                 nouveauclient.nom = nouvNom;
                 nouveauclient.nas=nouvNas;   

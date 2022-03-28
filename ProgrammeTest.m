@@ -4,14 +4,17 @@ ConfigurerProjet;
 
 
 client1 = Client('charles','barette','123456789');
+Jocelyn = Client('Jocelyn','Dubuc','827891898');
+comptePatate1 = Compte(1000,1000);
+comptePouletBeurre1 = Compte(1000,1000);
 
-comptePatate1 = Compte('epargnes1',client1);
-comptePouletBeurre1 = Compte('celi1',client1);
-client1.AjouterCompte(comptePouletBeurre1);
-client1.AjouterCompte(comptePatate1);
+celideJocelyn = Compte(2000,2000);
 
-compteAVerifier=client1.ObtenirCompte(1);
+dejardounes = Banque('dejardounes','4');
+dejardounes.AjouterClient(Jocelyn);
+dejardounes.AjouterCompte(celideJocelyn,Jocelyn);
 
-fprintf('nom du compte: %s',compteAVerifier.getIdentifiant());
+
+fprintf('nom du client: %s',dejardounes.ObtenirCompteParNumAssSociale('827891898').getNom());
 
 end

@@ -10,12 +10,12 @@ classdef Compte < handle
     end
 
     methods (Access = public)
-        function compte = Compte(identifiant,client)
+        function compte = Compte(depotCheque,depotEpargne)
             if nargin ~=0
-                validateattributes(identifiant,{'char'},{'row'});
-            
-                compte.client = client;
-                compte.identifiant = identifiant;
+                validateattributes(depotCheque,{'double'},{'positive'});
+                validateattributes(depotCheque,{'double'},{'positive'});
+                compte.soldeCheque = compte.soldeCheque + depotCheque;
+                compte.soldeEpargne = compte.soldeEpargne + depotEpargne;
             end
         end
 
@@ -36,6 +36,9 @@ classdef Compte < handle
 
         function setClient(ref,client)
             ref.client = client;
+        end
+        function setIdentifiant(ref,nouvIdentfifiant)
+            ref.identifiant = nouvIdentfifiant;
         end
 
         function valeurResultat = eq(ref,compteComp)

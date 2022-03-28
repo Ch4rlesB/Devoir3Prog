@@ -8,7 +8,7 @@ classdef Banque < handle
     nbClients = 0;
     nbComptes = 0;
     tabClients = Client.empty();
-    tabComptes = Comptes.empty();
+    tabComptes = Compte.empty();
     end
 
     methods (Access = public)
@@ -72,7 +72,7 @@ classdef Banque < handle
             for i=1:size(ref.tabComptes,2)
                 assert(nouvCompte~=ref.tabComptes(i),'Ce compte existe deja dans la base de donnees.');
             end
-            nouvCompte.indentifiant = GenererIdentifiantAleatoire;
+            nouvCompte.setIdentifiant = ref.GenererIdentifiantAleatoire();
             nouvCompte.setClient(client);
             client.AjouterCompte(nouvCompte);
             ref.tabComptes = [ref.tabComptes;nouvCompte];
@@ -90,7 +90,7 @@ classdef Banque < handle
         end
 
         function clientRetour=ObtenirCompteParNumAssSociale(ref, nas)
-            validateattributes(nas,{'char'},{'scalar'});
+            validateattributes(nas,{'char'},{'row'});
             clientRetour = Client.empty();
             for i=1:size(ref.tabClients,2)
                 if (ref.tabClients(i).getNumeroAssuranceSociale==nas)
