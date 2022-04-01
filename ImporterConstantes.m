@@ -9,9 +9,7 @@ CHEMIN_MOD_PLATEFORME = [CHEMIN_MODULES, '\ModulePlateforme'];
 CHEMIN_MOD_COMPTE = [CHEMIN_MODULES, '\ModuleCompte'];
 CHEMIN_MOD_BANQUE = [CHEMIN_MODULES, '\ModuleBanque'];
 CHEMIN_MOD_OUTILS = [CHEMIN_MODULES, '\ModuleOutils'];
-
-% Chemin vers la BD
-CHEMIN_FICHIER_BD = [CHEMIN_DONNEES, '\BaseDeDonnees'];
+CHEMIN_BD = [CHEMIN_DONNEES, '\BaseDeDonnees.txt'];
 
 % Chemin vers le journal de transactions
-CHEMIN_FICHIER_JOURNAL = [CHEMIN_DONNEES, '\JournalTransactions.txt'];
+CHEMIN_FICHIER_JOURNAL = [CHEMIN_DONNEES, '\Transactions.txt'];

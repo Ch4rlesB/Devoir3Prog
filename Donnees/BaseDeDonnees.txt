@@ -1,0 +1,721 @@
+Nombre de banques : 5
+nom: Banque de Montréal
+numeroInstitution: 001
+nbClients: 10
+nbComptes: 32
+	Client no.1
+		prenom: Charley
+		nom: Porter
+		NAS: 860455441
+		nbComptes: 5
+			Compte no.1
+				Solde cheque: 9057920
+				Solde epargne: 1269869
+			Compte no.2
+				Solde cheque: 6323593
+				Solde epargne: 975405
+			Compte no.3
+				Solde cheque: 5468816
+				Solde epargne: 9575069
+			Compte no.4
+				Solde cheque: 1576131
+				Solde epargne: 9705928
+			Compte no.5
+				Solde cheque: 4853757
+				Solde epargne: 8002805
+	Client no.2
+		prenom: Jonathan
+		nom: Young
+		NAS: 632137737
+		nbComptes: 3
+			Compte no.1
+				Solde cheque: 9157356
+				Solde epargne: 7922074
+			Compte no.2
+				Solde cheque: 6557407
+				Solde epargne: 357117
+			Compte no.3
+				Solde cheque: 9339933
+				Solde epargne: 6787352
+	Client no.3
+		prenom: Josie
+		nom: Miller
+		NAS: 689842587
+		nbComptes: 4
+			Compte no.1
+				Solde cheque: 3922271
+				Solde epargne: 6554779
+			Compte no.2
+				Solde cheque: 7060461
+				Solde epargne: 318329
+			Compte no.3
+				Solde cheque: 461714
+				Solde epargne: 971318
+			Compte no.4
+				Solde cheque: 6948287
+				Solde epargne: 3170995
+	Client no.4
+		prenom: Louis
+		nom: Stevens
+		NAS: 924830245
+		nbComptes: 1
+			Compte no.1
+				Solde cheque: 4387444
+				Solde epargne: 3815585
+	Client no.5
+		prenom: Lana
+		nom: Rivera
+		NAS: 202954296
+		nbComptes: 4
+			Compte no.1
+				Solde cheque: 1868727
+				Solde epargne: 4897644
+			Compte no.2
+				Solde cheque: 6463131
+				Solde epargne: 7093649
+			Compte no.3
+				Solde cheque: 2760251
+				Solde epargne: 6797027
+			Compte no.4
+				Solde cheque: 1626118
+				Solde epargne: 1189977
+	Client no.6
+		prenom: Frédérick
+		nom: Flores
+		NAS: 766572303
+		nbComptes: 5
+			Compte no.1
+				Solde cheque: 3403858
+				Solde epargne: 5852678
+			Compte no.2
+				Solde cheque: 7512671
+				Solde epargne: 2550952
+			Compte no.3
+				Solde cheque: 6990768
+				Solde epargne: 8909033
+			Compte no.4
+				Solde cheque: 5472156
+				Solde epargne: 1386245
+			Compte no.5
+				Solde cheque: 2575083
+				Solde epargne: 8407173
+	Client no.7
+		prenom: Louisa
+		nom: Patterson
+		NAS: 173389544
+		nbComptes: 5
+			Compte no.1
+				Solde cheque: 2435250
+				Solde epargne: 9292637
+			Compte no.2
+				Solde cheque: 1965953
+				Solde epargne: 2510839
+			Compte no.3
+				Solde cheque: 4732889
+				Solde epargne: 3516596
+			Compte no.4
+				Solde cheque: 5852641
+				Solde epargne: 5497237
+			Compte no.5
+				Solde cheque: 2858391
+				Solde epargne: 7572003
+	Client no.8
+		prenom: Francis
+		nom: Hayes
+		NAS: 765122780
+		nbComptes: 2
+			Compte no.1
+				Solde cheque: 5678217
+				Solde epargne: 758543
+			Compte no.2
+				Solde cheque: 5307976
+				Solde epargne: 7791673
+	Client no.9
+		prenom: Patricia
+		nom: Duncan
+		NAS: 461306261
+		nbComptes: 1
+			Compte no.1
+				Solde cheque: 5688237
+				Solde epargne: 4693907
+	Client no.10
+		prenom: Yannick
+		nom: Russell
+		NAS: 783970486
+		nbComptes: 2
+			Compte no.1
+				Solde cheque: 1621824
+				Solde epargne: 7942846
+			Compte no.2
+				Solde cheque: 5285332
+				Solde epargne: 1656488
+nom: Banque Toronto-Dominion
+numeroInstitution: 004
+nbClients: 10
+nbComptes: 30
+	Client no.1
+		prenom: Anna
+		nom: Bradley
+		NAS: 689588203
+		nbComptes: 2
+			Compte no.1
+				Solde cheque: 6540791
+				Solde epargne: 6892146
+			Compte no.2
+				Solde cheque: 4505416
+				Solde epargne: 838214
+	Client no.2
+		prenom: Sébastien
+		nom: Rodriguez
+		NAS: 246350562
+		nbComptes: 5
+			Compte no.1
+				Solde cheque: 1523781
+				Solde epargne: 8258170
+			Compte no.2
+				Solde cheque: 9961348
+				Solde epargne: 781756
+			Compte no.3
+				Solde cheque: 1066528
+				Solde epargne: 9618981
+			Compte no.4
+				Solde cheque: 7749105
+				Solde epargne: 8173033
+			Compte no.5
+				Solde cheque: 844359
+				Solde epargne: 3997827
+	Client no.3
+		prenom: Joanie
+		nom: Willis
+		NAS: 207097914
+		nbComptes: 5
+			Compte no.1
+				Solde cheque: 4314139
+				Solde epargne: 9106476
+			Compte no.2
+				Solde cheque: 2638030
+				Solde epargne: 1455390
+			Compte no.3
+				Solde cheque: 8692923
+				Solde epargne: 5797046
+			Compte no.4
+				Solde cheque: 1449548
+				Solde epargne: 8530312
+			Compte no.5
+				Solde cheque: 3509524
+				Solde epargne: 5132496
+	Client no.4
+		prenom: Pierre
+		nom: Wallace
+		NAS: 548527647
+		nbComptes: 1
+			Compte no.1
+				Solde cheque: 2399162
+				Solde epargne: 1233190
+	Client no.5
+		prenom: Kim
+		nom: Reyes
+		NAS: 963769562
+		nbComptes: 2
+			Compte no.1
+				Solde cheque: 4172671
+				Solde epargne: 496545
+			Compte no.2
+				Solde cheque: 9447872
+				Solde epargne: 4908641
+	Client no.6
+		prenom: Florent
+		nom: Barnes
+		NAS: 406347154
+		nbComptes: 2
+			Compte no.1
+				Solde cheque: 9000539
+				Solde epargne: 3692468
+			Compte no.2
+				Solde cheque: 7802521
+				Solde epargne: 3897389
+	Client no.7
+		prenom: Léonie
+		nom: Moore
+		NAS: 626740976
+		nbComptes: 3
+			Compte no.1
+				Solde cheque: 964546
+				Solde epargne: 1319733
+			Compte no.2
+				Solde cheque: 9561346
+				Solde epargne: 5752086
+			Compte no.3
+				Solde cheque: 2347800
+				Solde epargne: 3531586
+	Client no.8
+		prenom: Michel
+		nom: Adams
+		NAS: 301430746
+		nbComptes: 1
+			Compte no.1
+				Solde cheque: 430239
+				Solde epargne: 1689901
+	Client no.9
+		prenom: Nathalie
+		nom: Vasquez
+		NAS: 776140353
+		nbComptes: 4
+			Compte no.1
+				Solde cheque: 6477460
+				Solde epargne: 4509238
+			Compte no.2
+				Solde cheque: 2963209
+				Solde epargne: 7446929
+			Compte no.3
+				Solde cheque: 6867755
+				Solde epargne: 1835112
+			Compte no.4
+				Solde cheque: 6256186
+				Solde epargne: 7802275
+	Client no.10
+		prenom: Charles
+		nom: Bryant
+		NAS: 329585604
+		nbComptes: 5
+			Compte no.1
+				Solde cheque: 7757127
+				Solde epargne: 4867917
+			Compte no.2
+				Solde cheque: 4467838
+				Solde epargne: 3063495
+			Compte no.3
+				Solde cheque: 5107716
+				Solde epargne: 8176278
+			Compte no.4
+				Solde cheque: 6443182
+				Solde epargne: 3786094
+			Compte no.5
+				Solde cheque: 5328256
+				Solde epargne: 3507272
+nom: Banque royale du Canada
+numeroInstitution: 003
+nbClients: 10
+nbComptes: 35
+	Client no.1
+		prenom: Pénélope
+		nom: Martin
+		NAS: 555361346
+		nbComptes: 5
+			Compte no.1
+				Solde cheque: 5501564
+				Solde epargne: 6224751
+			Compte no.2
+				Solde cheque: 2077423
+				Solde epargne: 3012464
+			Compte no.3
+				Solde cheque: 2304882
+				Solde epargne: 8443088
+			Compte no.4
+				Solde cheque: 2259218
+				Solde epargne: 1707081
+			Compte no.5
+				Solde cheque: 4356987
+				Solde epargne: 3111023
+	Client no.2
+		prenom: Claude
+		nom: Butler
+		NAS: 729169050
+		nbComptes: 3
+			Compte no.1
+				Solde cheque: 1848164
+				Solde epargne: 9048810
+			Compte no.2
+				Solde cheque: 4388700
+				Solde epargne: 1111193
+			Compte no.3
+				Solde cheque: 4087199
+				Solde epargne: 5948961
+	Client no.3
+		prenom: Stéphanie
+		nom: Ryan
+		NAS: 901812927
+		nbComptes: 4
+			Compte no.1
+				Solde cheque: 7112158
+				Solde epargne: 2217468
+			Compte no.2
+				Solde cheque: 2966759
+				Solde epargne: 3187784
+			Compte no.3
+				Solde cheque: 5078583
+				Solde epargne: 855158
+			Compte no.4
+				Solde cheque: 8010147
+				Solde epargne: 292203
+	Client no.4
+		prenom: Mathieu
+		nom: Arnold
+		NAS: 963362282
+		nbComptes: 4
+			Compte no.1
+				Solde cheque: 4886090
+				Solde epargne: 5785251
+			Compte no.2
+				Solde cheque: 4588489
+				Solde epargne: 9630886
+			Compte no.3
+				Solde cheque: 5211359
+				Solde epargne: 2315944
+			Compte no.4
+				Solde cheque: 6240601
+				Solde epargne: 6791356
+	Client no.5
+		prenom: Sylvie
+		nom: Morrison
+		NAS: 592493977
+		nbComptes: 2
+			Compte no.1
+				Solde cheque: 9879821
+				Solde epargne: 377389
+			Compte no.2
+				Solde cheque: 9132869
+				Solde epargne: 7961839
+	Client no.6
+		prenom: Marc
+		nom: Jordan
+		NAS: 224761999
+		nbComptes: 2
+			Compte no.1
+				Solde cheque: 3353569
+				Solde epargne: 6797280
+			Compte no.2
+				Solde cheque: 7212275
+				Solde epargne: 1067619
+	Client no.7
+		prenom: Francesca
+		nom: Chavez
+		NAS: 234364605
+		nbComptes: 3
+			Compte no.1
+				Solde cheque: 7790518
+				Solde epargne: 7150371
+			Compte no.2
+				Solde cheque: 8909226
+				Solde epargne: 3341631
+			Compte no.3
+				Solde cheque: 1978099
+				Solde epargne: 305410
+	Client no.8
+		prenom: Luc
+		nom: Jimenez
+		NAS: 331757429
+		nbComptes: 3
+			Compte no.1
+				Solde cheque: 4799222
+				Solde epargne: 9047223
+			Compte no.2
+				Solde cheque: 6176664
+				Solde epargne: 8594424
+			Compte no.3
+				Solde cheque: 5767216
+				Solde epargne: 1829225
+	Client no.9
+		prenom: Simone
+		nom: Meyer
+		NAS: 856645530
+		nbComptes: 5
+			Compte no.1
+				Solde cheque: 286742
+				Solde epargne: 4899014
+			Compte no.2
+				Solde cheque: 9786807
+				Solde epargne: 7126945
+			Compte no.3
+				Solde cheque: 4710884
+				Solde epargne: 596189
+			Compte no.4
+				Solde cheque: 424312
+				Solde epargne: 714455
+			Compte no.5
+				Solde cheque: 967301
+				Solde epargne: 8181486
+	Client no.10
+		prenom: Jean
+		nom: Lopez
+		NAS: 328853961
+		nbComptes: 4
+			Compte no.1
+				Solde cheque: 1498655
+				Solde epargne: 6596053
+			Compte no.2
+				Solde cheque: 9729746
+				Solde epargne: 6489915
+			Compte no.3
+				Solde cheque: 4537978
+				Solde epargne: 4323916
+			Compte no.4
+				Solde cheque: 834699
+				Solde epargne: 1331711
+nom: Banque canadienne impériale de commerce
+numeroInstitution: 010
+nbClients: 10
+nbComptes: 29
+	Client no.1
+		prenom: Michaeala
+		nom: Harris
+		NAS: 832856343
+		nbComptes: 2
+			Compte no.1
+				Solde cheque: 8313798
+				Solde epargne: 8033644
+			Compte no.2
+				Solde cheque: 3992578
+				Solde epargne: 5268759
+	Client no.2
+		prenom: Steven
+		nom: Stevens
+		NAS: 319172472
+		nbComptes: 4
+			Compte no.1
+				Solde cheque: 6279734
+				Solde epargne: 2919841
+			Compte no.2
+				Solde cheque: 154872
+				Solde epargne: 9840638
+			Compte no.3
+				Solde cheque: 1062164
+				Solde epargne: 3724098
+			Compte no.4
+				Solde cheque: 4896877
+				Solde epargne: 3394935
+	Client no.3
+		prenom: Mélanie
+		nom: James
+		NAS: 936337260
+		nbComptes: 5
+			Compte no.1
+				Solde cheque: 526770
+				Solde epargne: 7378581
+			Compte no.2
+				Solde cheque: 4228357
+				Solde epargne: 5478710
+			Compte no.3
+				Solde cheque: 4177442
+				Solde epargne: 9830525
+			Compte no.4
+				Solde cheque: 7010988
+				Solde epargne: 6663389
+			Compte no.5
+				Solde cheque: 6981056
+				Solde epargne: 6665280
+	Client no.4
+		prenom: Joseph
+		nom: Allen
+		NAS: 414985390
+		nbComptes: 1
+			Compte no.1
+				Solde cheque: 9990804
+				Solde epargne: 1711211
+	Client no.5
+		prenom: Isabelle
+		nom: Vasquez
+		NAS: 276935726
+		nbComptes: 3
+			Compte no.1
+				Solde cheque: 8818666
+				Solde epargne: 6691754
+			Compte no.2
+				Solde cheque: 3689166
+				Solde epargne: 4607260
+			Compte no.3
+				Solde cheque: 1564050
+				Solde epargne: 8555229
+	Client no.6
+		prenom: Yvan
+		nom: Scott
+		NAS: 325975472
+		nbComptes: 2
+			Compte no.1
+				Solde cheque: 1909237
+				Solde epargne: 4282530
+			Compte no.2
+				Solde cheque: 1206117
+				Solde epargne: 5895075
+	Client no.7
+		prenom: Béatrice
+		nom: Sanchez
+		NAS: 654440208
+		nbComptes: 2
+			Compte no.1
+				Solde cheque: 5829864
+				Solde epargne: 2518062
+			Compte no.2
+				Solde cheque: 6170909
+				Solde epargne: 2652810
+	Client no.8
+		prenom: Lorne
+		nom: Morales
+		NAS: 525959964
+		nbComptes: 5
+			Compte no.1
+				Solde cheque: 7302488
+				Solde epargne: 3438771
+			Compte no.2
+				Solde cheque: 1077691
+				Solde epargne: 9063082
+			Compte no.3
+				Solde cheque: 8177606
+				Solde epargne: 2607280
+			Compte no.4
+				Solde cheque: 225126
+				Solde epargne: 4252594
+			Compte no.5
+				Solde cheque: 1614848
+				Solde epargne: 1787662
+	Client no.9
+		prenom: Anabelle
+		nom: Rodriguez
+		NAS: 416493557
+		nbComptes: 1
+			Compte no.1
+				Solde cheque: 5985237
+				Solde epargne: 4709243
+	Client no.10
+		prenom: William
+		nom: Ruiz
+		NAS: 847745765
+		nbComptes: 4
+			Compte no.1
+				Solde cheque: 6385308
+				Solde epargne: 336039
+			Compte no.2
+				Solde cheque: 3195998
+				Solde epargne: 5308643
+			Compte no.3
+				Solde cheque: 4076192
+				Solde epargne: 8199813
+			Compte no.4
+				Solde cheque: 9686494
+				Solde epargne: 5313340
+nom: Banque Scotia
+numeroInstitution: 002
+nbClients: 10
+nbComptes: 24
+	Client no.1
+		prenom: Anastasia
+		nom: Murphy
+		NAS: 626737682
+		nbComptes: 1
+			Compte no.1
+				Solde cheque: 6109587
+				Solde epargne: 7788023
+	Client no.2
+		prenom: Tim
+		nom: Lopez
+		NAS: 594751247
+		nbComptes: 1
+			Compte no.1
+				Solde cheque: 2664715
+				Solde epargne: 1536568
+	Client no.3
+		prenom: Annie
+		nom: Wood
+		NAS: 925474297
+		nbComptes: 3
+			Compte no.1
+				Solde cheque: 5271428
+				Solde epargne: 4574244
+			Compte no.2
+				Solde cheque: 5180522
+				Solde epargne: 9436227
+			Compte no.3
+				Solde cheque: 9576940
+				Solde epargne: 2407071
+	Client no.4
+		prenom: Nick
+		nom: Brooks
+		NAS: 357255117
+		nbComptes: 2
+			Compte no.1
+				Solde cheque: 6718082
+				Solde epargne: 6951405
+			Compte no.2
+				Solde cheque: 2547902
+				Solde epargne: 2240401
+	Client no.5
+		prenom: Stéphanie
+		nom: Nelson
+		NAS: 781480206
+		nbComptes: 5
+			Compte no.1
+				Solde cheque: 3444625
+				Solde epargne: 7805197
+			Compte no.2
+				Solde cheque: 67154
+				Solde epargne: 6021705
+			Compte no.3
+				Solde cheque: 9159913
+				Solde epargne: 11511
+			Compte no.4
+				Solde cheque: 4243491
+				Solde epargne: 4609164
+			Compte no.5
+				Solde cheque: 3224719
+				Solde epargne: 7847393
+	Client no.6
+		prenom: Nathaniel
+		nom: Butler
+		NAS: 778356185
+		nbComptes: 1
+			Compte no.1
+				Solde cheque: 1758745
+				Solde epargne: 7217581
+	Client no.7
+		prenom: Laurence
+		nom: Reyes
+		NAS: 442401262
+		nbComptes: 1
+			Compte no.1
+				Solde cheque: 3411247
+				Solde epargne: 6073893
+	Client no.8
+		prenom: Alexander
+		nom: Dixon
+		NAS: 611039477
+		nbComptes: 4
+			Compte no.1
+				Solde cheque: 2428496
+				Solde epargne: 9174244
+			Compte no.2
+				Solde cheque: 7655001
+				Solde epargne: 1886620
+			Compte no.3
+				Solde cheque: 911135
+				Solde epargne: 5762094
+			Compte no.4
+				Solde cheque: 5465932
+				Solde epargne: 4257289
+	Client no.9
+		prenom: Marie-Andrée
+		nom: Fisher
+		NAS: 168268861
+		nbComptes: 4
+			Compte no.1
+				Solde cheque: 6790168
+				Solde epargne: 6357868
+			Compte no.2
+				Solde cheque: 2089350
+				Solde epargne: 7092818
+			Compte no.3
+				Solde cheque: 1193963
+				Solde epargne: 6073040
+			Compte no.4
+				Solde cheque: 4587255
+				Solde epargne: 6619448
+	Client no.10
+		prenom: Tanner
+		nom: Jones
+		NAS: 148555107
+		nbComptes: 2
+			Compte no.1
+				Solde cheque: 6620096
+				Solde epargne: 4161586
+			Compte no.2
+				Solde cheque: 8329169
+				Solde epargne: 2564410
