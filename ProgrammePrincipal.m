@@ -6,8 +6,8 @@ function ProgrammePrincipal()
     %% Main
 
     plateforme = Plateforme();
-    plateforme.GenererRapport('RapportAvant')
+    plateforme.GenererRapport('RapportAvant');
     plateforme.AnalyserJournalTransactions('Transactions.txt');
-    plateforme.GenererRapport('RapportApres')
+    plateforme.GenererRapport('RapportApres');
 
 end

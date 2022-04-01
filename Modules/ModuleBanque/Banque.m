@@ -15,7 +15,9 @@ classdef Banque < handle
         function nouvelleBanque = Banque(nomBanque,numInst, tabClientsImp)
             if nargin == 2
                 validateattributes(nomBanque,{'char'},{'row'});
-                validateattributes(numInst,{'char'},{'row'});     
+                validateattributes(numInst,{'char'},{'row'});
+                nouvelleBanque.numero = numInst;
+                nouvelleBanque.nom = nomBanque;
             elseif nargin ==3
                 validateattributes(nomBanque,{'char'},{'row'});
                 validateattributes(numInst,{'char'},{'row'});
@@ -24,6 +26,8 @@ classdef Banque < handle
                     nouvelleBanque.tabClients = [nouvelleBanque.tabClients;tabClientsImp(i)];
                     nouvelleBanque.nbClients = nouvelleBanque.nbClients+1; 
                 end
+                nouvelleBanque.numero = numInst;
+                nouvelleBanque.nom = nomBanque;
                                  
             end
 
@@ -62,7 +66,7 @@ classdef Banque < handle
             for i=1:size(ref.tabClients,2)
                 assert(nouvClient~=ref.tabClients(i),'Ce client existe deja dans la base de donnees.');
             end            
-            ref.tabClients = [ref.tabClients;nouvClient];
+            ref.tabClients = [ref.tabClients,nouvClient];
             ref.nbClients = ref.nbClients + 1;      
         end
 
@@ -72,7 +76,7 @@ classdef Banque < handle
             for i=1:size(ref.tabComptes,2)
                 assert(nouvCompte~=ref.tabComptes(i),'Ce compte existe deja dans la base de donnees.');
             end
-            nouvCompte.setIdentifiant = ref.GenererIdentifiantAleatoire();
+            nouvCompte.setIdentifiant(ref.GenererIdentifiantAleatoire());
             nouvCompte.setClient(client);
             client.AjouterCompte(nouvCompte);
             ref.tabComptes = [ref.tabComptes;nouvCompte];
@@ -108,10 +112,10 @@ classdef Banque < handle
                 compteur = 0;
                 nbAleatoire = char.empty();
                 for j=1:9
-                    nbAleatoire(j) =randi(9); 
+                    nbAleatoire(j) =num2str(randi(9)); 
                 end
                 for i=1:size(ref.tabComptes,2)
-                    if strcmp(nbAleatoire,ref.tabComptes(i).getidentifiant())
+                    if strcmp(nbAleatoire,ref.tabComptes(i).getIdentifiant())
                         compteur=compteur+1;
                     end                 
                     

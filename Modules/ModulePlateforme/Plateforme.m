@@ -6,7 +6,7 @@ classdef Plateforme < handle
 
     methods (Access = public)
         function nouvellePlatforme = Plateforme()
-            ChargerBaseDeDonnees();
+            nouvellePlatforme.ChargerBaseDeDonnees();
 
         end
 
@@ -15,33 +15,83 @@ classdef Plateforme < handle
         end
         function AnalyserJournalTransactions(plateforme,nomFichier)
             validateattributes(nomFichier, {'char'},{'scalartext'});
-            
-            noFichier = fopen([CHEMIN_DONNEES,nomFichier]);
+            ImporterConstantes;
+            noFichier = fopen([CHEMIN_DONNEES,'\',nomFichier]);
             
             assert(noFichier ~= -1,'Erreur d''ouverture de fichier.');
 
             while ~feof(noFichier)
-                donnees = fscanf(noFichier,'%g,%c,%g,%c,%g',5);
-                noInst = donnees(1);
-                typeTrans = num2str(donnees(2));
-                idCompte = donnees(3);
-                typeCompte = num2str(donnees(4));
-                montant = donnees(5);
+                donnees = fscanf(noFichier,'%c%c%c,%c,%g,%c,%g',7);
+                noInst = char.empty();
+                noInst = [char(donnees(1)),char(donnees(2)),char(donnees(3))];
+                typeTrans = char(donnees(4));
+                idCompte = donnees(5);
+                typeCompte = char(donnees(6));
+                montant = donnees(7);
                 EffectuerTransaction(plateforme, noInst,typeTrans,idCompte,typeCompte,montant);
             end
 
         end
-        function GenererRapport(plateforme,nomFichier)
+        function GenererRapport(ref,nomFichier)
             if ~strcmp(nomFichier(end-3:end),'.txt')
                 nomFichier = [nomFichier,'.txt'];
             end
-            
-            noFichier = fopen([CHEMIN_RAPPORTS,nomFichier]);
+            ImporterConstantes;
+            noFichier = fopen([CHEMIN_RAPPORTS,'\',nomFichier],'w');
             assert(noFichier ~= -1,'Erreur d''ouverture de fichier.');
+            
+            
+            for i=1:size(ref.tabBanques, 2)
+                fprintf(noFichier,'Banque numéro: %g\n\n',i);
+                fprintf(noFichier,'	Nom               : %s\n',ref.tabBanques(i).getNom());
+                fprintf(noFichier,'	No. institution   : %s\n',ref.tabBanques(i).getNumero());
+                fprintf(noFichier,'	Nombre de clients : %03g\n',ref.tabBanques(i).getNbClient());
+                fprintf(noFichier,'	Nombre de comptes : %03g\n\n',ref.tabBanques(i).getNbCompte());
+                fprintf(noFichier,'    Détails des comptes clients :\n\n');
 
-
+                for j=1:ref.tabBanques(i).getNbClient()
+                    fprintf(noFichier,'		Client No. %g\n\n',j);
+                    fprintf(noFichier,'			Prénom : %s\n', ref.tabBanques(i).ObtenirClient(j).getPrenom());
+                    fprintf(noFichier,'			Nom     : %s\n\n', ref.tabBanques(i).ObtenirClient(j).getNom());
+                    totalCheques = 0;
+                    totalEpargne = 0;
+                    for k=1:ref.tabBanques(i).ObtenirClient(j).getNbComptes()
+                        fprintf(noFichier,'					Identifiant    : %s\n',ref.tabBanques(i).ObtenirClient(j).ObtenirCompte(k).getIdentifiant());
+                        soldeCheque = TransformerFormatBancaire(ref.tabBanques(i).ObtenirClient(j).ObtenirCompte(k).getSoldeCheque());
+                        totalCheques = totalCheques + ref.tabBanques(i).ObtenirClient(j).ObtenirCompte(k).getSoldeCheque();
+                        soldeEpargne = TransformerFormatBancaire(ref.tabBanques(i).ObtenirClient(j).ObtenirCompte(k).getSoldeEpargne());
+                        totalEpargne = totalEpargne + ref.tabBanques(i).ObtenirClient(j).ObtenirCompte(k).getSoldeEpargne();
+                        fprintf(noFichier,'					Solde cheques  : %s\n',soldeCheque);
+                        fprintf(noFichier,'					Solde epargnes : %s\n\n',soldeEpargne);
+                    end
+                    fprintf(noFichier,'			Total cheques : %s\n',TransformerFormatBancaire(totalCheques));
+                    fprintf(noFichier,'			Total epargne : %s\n\n',TransformerFormatBancaire(totalEpargne));
+                end
+            end
+        fclose(noFichier); 
         end
         
+        function EffectuerTransaction(ref,numInst,typeTrans,id,typeCompte,montant)
+            i=1;
+            while ~strcmp(ref.tabBanques(i).getNumero,(numInst))
+                i= i+1;
+            end
+           
+            if typeTrans == 'D'
+                if typeCompte == 'C'
+                    DepotCheques(ref.tabBanques(i).ObtenirCompteParIdentifiant(id),montant);
+                elseif typeCompte == 'E'
+                    DepotEpargne(ref.tabBanques(i).ObtenirCompteParIdentifiant(id),montant);
+                end   
+            elseif typeTrans == 'R'
+                if typeCompte == 'C'
+                    RetraitCheques(ref.tabBanques(i).ObtenirCompteParIdentifiant(id),montant);
+                elseif typeCompte == 'E'
+                    RetraitEpargne(ref.tabBanques(i).ObtenirCompteParIdentifiant(id),montant);
+                end  
+            end
+        end
+
         % Methode qui charge la base de donnees
         function ChargerBaseDeDonnees(obj)
 	        
@@ -149,9 +199,9 @@ classdef Plateforme < handle
 	        
 	        % Enregistrer les parametres dans la plateforme
 	        obj.nbBanques = nombreBanques;
-	        obj.banques = listeBanques;
+	        obj.tabBanques = listeBanques;
 	         
         end
-
+        
     end    
 end

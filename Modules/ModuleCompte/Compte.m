@@ -58,7 +58,7 @@ classdef Compte < handle
 
         function DepotCheques(ref,montant)
             validateattributes(montant,{'double'},{'nonnegative','scalar'});
-            ref.soldeCheques = ref.soldeCheques + montant;
+            ref.soldeCheque = ref.soldeCheque + montant;
         end    
 
         function DepotEpargne(ref, montant)
@@ -67,7 +67,7 @@ classdef Compte < handle
         end
         function RetraitCheques(ref,montant)
             validateattributes(montant,{'double'},{'nonnegative','scalar'});
-            ref.soldeCheques = ref.soldeCheques - montant;
+            ref.soldeCheque = ref.soldeCheque - montant;
         end    
 
         function RetraitEpargne(ref, montant)
