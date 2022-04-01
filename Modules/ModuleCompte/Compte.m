@@ -10,12 +10,12 @@ classdef Compte < handle
     end
 
     methods (Access = public)
-        function compte = Compte(depotCheque,depotEpargne)
+        function nouveauCompte = Compte(depotCheque,depotEpargne)
             if nargin ~=0
                 validateattributes(depotCheque,{'double'},{'positive'});
                 validateattributes(depotCheque,{'double'},{'positive'});
-                compte.soldeCheque = compte.soldeCheque + depotCheque;
-                compte.soldeEpargne = compte.soldeEpargne + depotEpargne;
+                nouveauCompte.soldeCheque = depotCheque;
+                nouveauCompte.soldeEpargne = depotEpargne;
             end
         end
 
