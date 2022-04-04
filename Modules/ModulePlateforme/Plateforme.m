@@ -1,4 +1,22 @@
 classdef Plateforme < handle
+%
+% La classe Plateforme représente la plateforme de gestion des transactions
+% que vous avez développée. Elle hérite de la classe handle. Elle 
+% possède les attributs suivants qui sont des attributs privés à moins 
+% d’indication contraire : 
+%
+% PROPRIETES :
+% - nbBanques : Un double qui correspond au nombre de banques contenues
+%   dans la plateforme. La valeur par défaut est zéro. 
+% - tabBanques = Un tableau de type Banque qui doit être initialisé avec le
+%   bon type, mais vide. Il s'agit des références vers les banques
+%   contenues dans la plateforme.
+%
+% MUTATEURS :
+% - getNbBanques : Retourne le double correspondant au nombre de banques
+%   contenues.
+%   
+%
     properties (Access=private)
        nbBanques = 0;
        tabBanques = Banque.empty();
@@ -6,20 +24,49 @@ classdef Plateforme < handle
 
     methods (Access = public)
         function nouvellePlatforme = Plateforme()
+        %
+        % Cette fonction est le constructeur de l'objet Plateforme.
+        % Elle charge la base de donnée à l'aide de ChargerBaseDeDonnees()
+        %
+        % PARAMÈTRES :
+        % AUCUN
+        %
+        % VALEUR DE RETOUR : La nouvelle plateforme (type Plateforme)
+        % 
+            %Charge la base de donnée
             nouvellePlatforme.ChargerBaseDeDonnees();
-
         end
 
         function retour = getNbBanques(plateforme)
+            %Retourne nbBanques
             retour = plateforme.nbBanques;
         end
+
         function AnalyserJournalTransactions(plateforme,nomFichier)
+        %
+        % Méthode qui lit, analyse et lance l exécution des transactions à
+        % partir d un journal de transactions en format texte. 
+        % Elle prend les entrées suivantes :
+        %
+        % PARAMÈTRES :
+        % - plateforme : Objet plateforme de reference. (type Plateforme)
+        % - nomFichier[] : Une chaîne de caractères qui correspond au nom 
+        %   du fichier texte qui contient le journal de transactions.
+        %   (type char)
+        %
+        % VALEUR DE RETOUR : 
+        %   RIEN
+        %   
+            %Valide que nomFichier est une chaine de caractère et importe
+            %les constantes nécéssaires pour ouvrir le fichier au nom
+            %nomFichier
             validateattributes(nomFichier, {'char'},{'scalartext'});
             ImporterConstantes;
             noFichier = fopen([CHEMIN_DONNEES,'\',nomFichier]);
-            
             assert(noFichier ~= -1,'Erreur d''ouverture de fichier.');
-
+            
+            %Decortique chaque ligne du journal de transaction et séprare
+            %la ligne en les différentes valeurs utiles
             while ~feof(noFichier)
                 donnees = fscanf(noFichier,'%c%c%c,%c,%g,%c,%g',7);
                 noInst = char.empty();
@@ -33,14 +80,31 @@ classdef Plateforme < handle
 
         end
         function GenererRapport(ref,nomFichier)
+        %
+        % Méthode qui génère un rapport détaillé à partir de la base de 
+        % données. . Une référence vous a été fournie pour déterminer le
+        % format de ce dernier. Elle prend les entrées suivantes :
+        %
+        % PARAMÈTRES :
+        % - ref : Objet plateforme de reference. (type Plateforme)
+        % - nomFichier[] : Une chaîne de caractères qui correspond au nom 
+        %   du fichier texte qui contient le rapport.(type char)
+        %
+        % VALEUR DE RETOUR : 
+        %   RIEN
+        %   
+            %Rajoute '.txt' a la fin de nomFichier si celui-ci est manquant
             if ~strcmp(nomFichier(end-3:end),'.txt')
                 nomFichier = [nomFichier,'.txt'];
             end
+
+            %Importe les constantes nécéssaires pour ouvrir le fichier au nom
+            %nomFichier
             ImporterConstantes;
             noFichier = fopen([CHEMIN_RAPPORTS,'\',nomFichier],'w');
             assert(noFichier ~= -1,'Erreur d''ouverture de fichier.');
             
-            
+            %Écrit l'information demandée dans le rapport.
             for i=1:size(ref.tabBanques, 2)
                 fprintf(noFichier,'Banque numéro: %g\n\n',i);
                 fprintf(noFichier,'	Nom               : %s\n',ref.tabBanques(i).getNom());
@@ -72,11 +136,37 @@ classdef Plateforme < handle
         end
         
         function EffectuerTransaction(ref,numInst,typeTrans,id,typeCompte,montant)
+        %
+        % Méthode effectue une transaction sur un compte donné. Elle prend 
+        % les entrées suivantes :
+        %
+        % PARAMÈTRES :
+        % - ref : Objet plateforme de reference. (type Plateforme)
+        % - numInst[] : Une chaîne de caractères qui correspond au 
+        %   numéro d’institution de la banque.(type char)
+        % - typeTrans : Un caractère qui correspond au type de la 
+        %   transaction « R » ou « D » pour retrait et dépôt respectivement
+        %   (type char)
+        % - id[] : Une chaine de caractère qui correspond à l'identifiant 
+        %   du compte. (type char)
+        % - typeCompte[] : Une chaîne de caractères qui correspond au type
+        %   du compte « C » ou « E » pour chèques et épargne respectivement
+        %   (type char)
+        % - montant : Double représantant le montant de la transaction
+        %   (type double)
+        %
+        %
+        % VALEUR DE RETOUR : 
+        %   RIEN
+        % 
+            
+            %Trouve l'indice de la banque correspondant au numInst
             i=1;
             while ~strcmp(ref.tabBanques(i).getNumero,(numInst))
                 i= i+1;
             end
-           
+            %Effectue la transaction dépendant si le compte est Cheques ou
+            %Épargne et effectue un depot ou un retrait
             if typeTrans == 'D'
                 if typeCompte == 'C'
                     DepotCheques(ref.tabBanques(i).ObtenirCompteParIdentifiant(id),montant);
@@ -92,8 +182,18 @@ classdef Plateforme < handle
             end
         end
 
-        % Methode qui charge la base de donnees
+
         function ChargerBaseDeDonnees(obj)
+        %
+        % Methode qui charge la base de donnees
+        %
+        % PARAMÈTRES :
+        % - ref : Objet plateforme de reference. (type Plateforme)
+        %
+        % VALEUR DE RETOUR : 
+        %   RIEN
+        % 
+        % 
 	        
 	        % Importer les constantes
 	        ImporterConstantes
