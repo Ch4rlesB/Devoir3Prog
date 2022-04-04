@@ -1,5 +1,5 @@
 %
-% La classe Client représente le profil d'un client d,une banque.
+% La classe Client représente le profil d'un client d'une banque.
 %
 %   Attribut :
 % -	prenom: Une chaîne de caractères qui représente le prénom.
