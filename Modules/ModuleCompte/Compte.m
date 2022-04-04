@@ -56,7 +56,7 @@ classdef Compte < handle
             end
         end
 
-        function DepotCheques(ref,montant)
+        function DepotCheques(ref, montant)
             validateattributes(montant,{'double'},{'nonnegative','scalar'});
             ref.soldeCheque = ref.soldeCheque + montant;
         end    

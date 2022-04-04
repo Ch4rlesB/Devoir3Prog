@@ -16,7 +16,7 @@ dejardounes.AjouterCompte(celideJocelyn,Jocelyn);
 
 plateforme = Plateforme();
 plateforme.GenererRapport('RapportAvant');
-plateforme.AnalyserJournalTransactions('Transactions.txt');
-plateforme.GenererRapport('RapportApres');
+%plateforme.AnalyserJournalTransactions('Transactions.txt');
+%plateforme.GenererRapport('RapportApres');
 
 end

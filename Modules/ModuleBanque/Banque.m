@@ -86,7 +86,7 @@ classdef Banque < handle
         function compteRetour = ObtenirCompteParIdentifiant(ref,identifiant)
             validateattributes(identifiant,{'double'},{'scalar'});
             compteRetour = Compte.empty();
-            for i=1:size(ref.tabComptes,2)
+            for i=1:size(ref.tabComptes,1)
                 if (ref.tabComptes(i).getIdentifiant==identifiant)
                     compteRetour = [compteRetour;ref.tabComptes(i)];
                 end
@@ -108,6 +108,7 @@ classdef Banque < handle
     methods (Access = private)
         function nbAleatoire = GenererIdentifiantAleatoire(ref)
             estpasunique = 1;
+            rng(0);
             while (estpasunique == 1)
                 compteur = 0;
                 nbAleatoire = char.empty();
