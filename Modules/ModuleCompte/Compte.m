@@ -1,12 +1,16 @@
 classdef Compte < handle
 %
-% Classe Compte
+% La classe Compte représente un compte banquaire appartenant à un individu
+% quelconque.
 % 
-% PROPRITÉTÉS : 
+% PROPRIÉTÉS : 
+% - identifiant : une chaine de caractère représentant l'identifiant.
+% - client : un tableau de client initialisé avec un type client.
+% - soldeCheque : un double contenant la valeur totale du compte chèque.
+% - soldeEpargne : un double contenant la valeur totale du compte épargne.
 %
 %
-%
-    % Initialisation des propriétés privée.
+    % Initialisation des propriétés privées.
     properties (Access = private)
     identifiant = char.empty();
     client = Client.empty();
@@ -15,11 +19,10 @@ classdef Compte < handle
     end
 
     methods (Access = public)
+
         function nouveauCompte = Compte(depotCheque,depotEpargne)
-        %
-        % Cette fonction est le constructeur de la classe compte
-        % elle modifie les valeurs initales dans la base de données.
-        %
+        
+        % Cette fonction est le constructeur de la classe compte    
         % PARAMÈTRES :
         % - depotCheque : un double qui correspond au dépôt initial dans le
         %   compte chèque.
@@ -27,9 +30,11 @@ classdef Compte < handle
         %   le compte épargne.
         %
         % VALEUR DE RETOUR : 
-        % - nouveauCompte
+        % - nouveauCompte : est de type 'compte' et est une référence vers l'objet. 
         %
-            % Vérification que les valeurs entrées sont valide.
+            
+            % Vérification que le nombre d'argument est valide, que les valeurs entrées sont valide 
+            % et ensuite on fixe les soldes à nouveau compte.
             if nargin ~=0
                 validateattributes(depotCheque,{'double'},{'positive'});
                 validateattributes(depotCheque,{'double'},{'positive'});
@@ -78,6 +83,7 @@ classdef Compte < handle
         % 
             valeurLue = compte.soldeCheque;
         end 
+
         function valeurLue = getSoldeEpargne(compte)
         %
         % Cette fonction est l'accesseur pour le solde du compte épargne.
@@ -90,15 +96,34 @@ classdef Compte < handle
         % 
             valeurLue = compte.soldeEpargne;
         end
-        % fait les sets tantot
-        %****************************************************
+
+        %
+        % Cette fonction est le mutateur pour le client
+        %
+        % PARAMÈTRES :
+        % - client : un tableau de type client
+        %
+        % VALEUR DE RETOUR : 
+        % - valeurLue : une rérérence vers l'objet.
+        % 
         function setClient(ref,client)
             ref.client = client;
         end
+
+         %
+        % Cette fonction est le mutateur pour l'identifiant du compte du client
+        %
+        % PARAMÈTRES :
+        % - identifiant : une chaine de caractère correspondant à
+        %   l'identifiant.
+        %
+        % VALEUR DE RETOUR : 
+        % - valeurLue : une rérérence vers l'objet.
+        % 
         function setIdentifiant(ref,nouvIdentfifiant)
             ref.identifiant = nouvIdentfifiant;
-        %****************************************************
         end
+
         function valeurResultat = eq(ref,compteComp)
         %
         % Cette fonction compare les informations de 2 comptes ensemble.
@@ -109,7 +134,10 @@ classdef Compte < handle
         %
         % VALEUR DE RETOUR : 
         % - valeurRésultat : un booléen qui indique si les comptes sont égaux ou non.
-            
+            % On cherche si deux compte sont égaux pour ce faire nous
+            % parcourons l'ensemble du tableau de compte afin d'y trouver
+            % si des identifiants, des clients, des soldes chèques, des soldes 
+            % épargnes sont équivalent. 
             valeurResultat = 0;
             if isa(compteComp,'Compte')
                 if strcmp(compteComp.getIdentifiant(),ref.identifiant) 
@@ -132,7 +160,9 @@ classdef Compte < handle
         % - ref : une référence vers l'objet.
         % - montant : un double correspondant au montant à ajouter au solde
         % du compte chèque.
-        % 
+        %   
+            % On vérifie si l'entrée est valide et ensuite on addtionne le
+            % solde du compte chèques par le montant demandé.
             validateattributes(montant,{'double'},{'nonnegative','scalar'});
             ref.soldeCheque = ref.soldeCheque + montant;
         end    
@@ -146,6 +176,8 @@ classdef Compte < handle
         % - montant : un double correspondant au montant à ajouter au solde
         % du compte épargne.
         % 
+            % On vérifie si l'entrée est valide et ensuite on additionne le
+            % solde du compte épargne par le montant demandé.
             validateattributes(montant,{'double'},{'nonnegative','scalar'});
             ref.soldeEpargne = ref.soldeEpargne + montant;
         end
@@ -158,6 +190,8 @@ classdef Compte < handle
         % - montant : un double correspondant au montant à retirer au solde
         % du compte épargne.
         %
+            % On vérifie si l'entrée est valide et ensuite on soustrait le
+            % solde du compte chèques par le montant demandé.
             validateattributes(montant,{'double'},{'nonnegative','scalar'});
             ref.soldeCheque = ref.soldeCheque - montant;
         end    
@@ -171,6 +205,8 @@ classdef Compte < handle
         % - montant : un double correspondant au montant à retirer au solde
         % du compte épargne.
         %
+            % On vérifie si l'entrée est valide et ensuite on soustrait le
+            % solde du compte épargne par le montant demandé.
             validateattributes(montant,{'double'},{'nonnegative','scalar'});
             ref.soldeEpargne = ref.soldeEpargne - montant;
         end
