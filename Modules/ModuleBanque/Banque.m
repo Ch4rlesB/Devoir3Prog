@@ -202,15 +202,21 @@ classdef Banque < handle
             %Valide les entrees et initialise le compte de retour comme un
             %compte vide
             validateattributes(identifiant,{'double'},{'scalar'});
-            compteRetour = Compte.empty();
-                
+            compteTrouve = 0;
+  
             %Parcourt le tableau de comptes pour obtenir le compte
             %correspondant a l'identifiant desire
+            identifiantComp = num2str(identifiant);
             for i=1:size(ref.tabComptes,1)
-                if (ref.tabComptes(i).getIdentifiant==identifiant)
-                    compteRetour = [compteRetour;ref.tabComptes(i)];
+                if (strcmp(ref.tabComptes(i).getIdentifiant,identifiantComp))
+                    compteTrouve = 1;
+                    compteRetour = ref.tabComptes(i);
                 end
-            end           
+            end 
+            if compteTrouve==0
+            compteRetour=[];
+            end
+
         end
 
         function clientRetour=ObtenirCompteParNumAssSociale(ref, nas)
@@ -256,21 +262,19 @@ classdef Banque < handle
 
             %Initialise la variable qui indique si le compte est unique
             estpasunique = 1;
-
-            %Semence pour la generation de nombres aleatoires
-            rng(0);
+           
             
             %Initalise le nombre aleatoire comme une chaines de caracteres
             %vide tant que le nombre aleatoire n'est pas unique
             while (estpasunique == 1)
                 compteur = 0;
-                nbAleatoire = char.empty();
                 
                 %Stocke un nombre aleatoire de 9 chiffres dans la chaine de
                 %caracteres nbAleatoire
-                for j=1:9
-                    nbAleatoire(j) =num2str(randi(9)); 
-                end
+                %for j=1:9
+                    %nbAleatoire(j) =num2str(randi(9)); 
+                %end
+                nbAleatoire = num2str(10e6 + randi(9e7 - 1));
                 
                 %Verifie si le nombre genere est unique
                 for i=1:size(ref.tabComptes,2)
