@@ -1,32 +1,42 @@
-Banque numéro: 1
+Banque No. 1
 
 	Nom               : Banque de Montréal
 	No. institution   : 001
-	Nombre de clients : 010
-	Nombre de comptes : 032
+	Nombre de clients : 10
+	Nombre de comptes : 32
 
-    Détails des comptes clients :
+	Détails des comptes clients :
 
 		Client No. 1
 
 			Prénom : Charley
 			Nom     : Porter
 
+				Compte No. 1
+
 					Identifiant    : 83325131
 					Solde cheques  : 9,061,703.98 $
 					Solde epargnes : 1,202,852.87 $
+
+				Compte No. 2
 
 					Identifiant    : 91521274
 					Solde cheques  : 6,332,624.60 $
 					Solde epargnes : 967,019.34 $
 
+				Compte No. 3
+
 					Identifiant    : 21428814
 					Solde cheques  : 5,472,167.75 $
 					Solde epargnes : 9,558,868.42 $
 
+				Compte No. 4
+
 					Identifiant    : 92203827
 					Solde cheques  : 1,582,963.35 $
 					Solde epargnes : 9,692,888.87 $
+
+				Compte No. 5
 
 					Identifiant    : 66912332
 					Solde cheques  : 4,865,557.91 $
@@ -40,13 +50,19 @@ Banque numéro: 1
 			Prénom : Jonathan
 			Nom     : Young
 
+				Compte No. 1
+
 					Identifiant    : 18778637
 					Solde cheques  : 9,144,166.57 $
 					Solde epargnes : 7,921,437.44 $
 
+				Compte No. 2
+
 					Identifiant    : 35064840
 					Solde cheques  : 6,584,952.56 $
 					Solde epargnes : 357,117.00 $
+
+				Compte No. 3
 
 					Identifiant    : 59219337
 					Solde cheques  : 9,336,941.75 $
@@ -60,17 +76,25 @@ Banque numéro: 1
 			Prénom : Josie
 			Nom     : Miller
 
+				Compte No. 1
+
 					Identifiant    : 96175615
 					Solde cheques  : 3,916,598.30 $
 					Solde epargnes : 6,537,537.18 $
+
+				Compte No. 2
 
 					Identifiant    : 96839968
 					Solde cheques  : 7,070,987.51 $
 					Solde epargnes : 276,325.11 $
 
+				Compte No. 3
+
 					Identifiant    : 24185178
 					Solde cheques  : 484,215.78 $
 					Solde epargnes : 986,290.95 $
+
+				Compte No. 4
 
 					Identifiant    : 97353350
 					Solde cheques  : 6,922,230.90 $
@@ -84,6 +108,8 @@ Banque numéro: 1
 			Prénom : Louis
 			Nom     : Stevens
 
+				Compte No. 1
+
 					Identifiant    : 96145025
 					Solde cheques  : 4,387,444.00 $
 					Solde epargnes : 3,815,585.00 $
@@ -96,17 +122,25 @@ Banque numéro: 1
 			Prénom : Lana
 			Nom     : Rivera
 
+				Compte No. 1
+
 					Identifiant    : 53683808
 					Solde cheques  : 1,868,046.85 $
 					Solde epargnes : 4,909,116.54 $
+
+				Compte No. 2
 
 					Identifiant    : 82025242
 					Solde cheques  : 6,463,131.00 $
 					Solde epargnes : 7,072,309.67 $
 
+				Compte No. 3
+
 					Identifiant    : 22769771
 					Solde cheques  : 2,732,586.36 $
 					Solde epargnes : 6,742,660.51 $
+
+				Compte No. 4
 
 					Identifiant    : 47958516
 					Solde cheques  : 1,587,287.51 $
@@ -120,21 +154,31 @@ Banque numéro: 1
 			Prénom : Frédérick
 			Nom     : Flores
 
+				Compte No. 1
+
 					Identifiant    : 92416197
 					Solde cheques  : 3,372,429.97 $
 					Solde epargnes : 5,859,332.71 $
+
+				Compte No. 2
 
 					Identifiant    : 81298659
 					Solde cheques  : 7,485,517.47 $
 					Solde epargnes : 2,536,822.87 $
 
+				Compte No. 3
+
 					Identifiant    : 96354318
 					Solde cheques  : 6,985,335.28 $
 					Solde epargnes : 8,889,330.80 $
 
+				Compte No. 4
+
 					Identifiant    : 69016663
 					Solde cheques  : 5,464,693.19 $
 					Solde epargnes : 1,376,976.97 $
+
+				Compte No. 5
 
 					Identifiant    : 13214052
 					Solde cheques  : 2,584,934.60 $
@@ -148,21 +192,31 @@ Banque numéro: 1
 			Prénom : Louisa
 			Nom     : Patterson
 
+				Compte No. 1
+
 					Identifiant    : 86421637
 					Solde cheques  : 2,424,538.43 $
 					Solde epargnes : 9,261,716.16 $
+
+				Compte No. 2
 
 					Identifiant    : 94059392
 					Solde cheques  : 1,938,750.90 $
 					Solde epargnes : 2,510,153.27 $
 
+				Compte No. 3
+
 					Identifiant    : 71086164
 					Solde cheques  : 4,727,936.75 $
 					Solde epargnes : 3,520,693.70 $
 
+				Compte No. 4
+
 					Identifiant    : 78196611
 					Solde cheques  : 5,837,181.92 $
 					Solde epargnes : 5,497,748.36 $
+
+				Compte No. 5
 
 					Identifiant    : 76881922
 					Solde cheques  : 2,839,332.23 $
@@ -176,9 +230,13 @@ Banque numéro: 1
 			Prénom : Francis
 			Nom     : Hayes
 
+				Compte No. 1
+
 					Identifiant    : 45300432
 					Solde cheques  : 5,645,044.56 $
 					Solde epargnes : 734,768.63 $
+
+				Compte No. 2
 
 					Identifiant    : 68993010
 					Solde cheques  : 5,298,566.39 $
@@ -192,6 +250,8 @@ Banque numéro: 1
 			Prénom : Patricia
 			Nom     : Duncan
 
+				Compte No. 1
+
 					Identifiant    : 25406802
 					Solde cheques  : 5,708,285.45 $
 					Solde epargnes : 4,681,331.10 $
@@ -204,9 +264,13 @@ Banque numéro: 1
 			Prénom : Yannick
 			Nom     : Russell
 
+				Compte No. 1
+
 					Identifiant    : 73544148
 					Solde cheques  : 1,617,030.70 $
 					Solde epargnes : 7,938,508.40 $
+
+				Compte No. 2
 
 					Identifiant    : 12864957
 					Solde cheques  : 5,294,563.60 $
@@ -215,23 +279,27 @@ Banque numéro: 1
 			Total cheques : 6,911,593.76 $
 			Total epargne : 9,593,028.50 $
 
-Banque numéro: 2
+Banque No. 2
 
 	Nom               : Banque Toronto-Dominion
 	No. institution   : 004
-	Nombre de clients : 010
-	Nombre de comptes : 030
+	Nombre de clients : 10
+	Nombre de comptes : 30
 
-    Détails des comptes clients :
+	Détails des comptes clients :
 
 		Client No. 1
 
 			Prénom : Anna
 			Nom     : Bradley
 
+				Compte No. 1
+
 					Identifiant    : 34923069
 					Solde cheques  : 6,521,467.28 $
 					Solde epargnes : 6,866,158.39 $
+
+				Compte No. 2
 
 					Identifiant    : 14155426
 					Solde cheques  : 4,472,657.25 $
@@ -245,21 +313,31 @@ Banque numéro: 2
 			Prénom : Sébastien
 			Nom     : Rodriguez
 
+				Compte No. 1
+
 					Identifiant    : 18741861
 					Solde cheques  : 1,499,364.13 $
 					Solde epargnes : 8,272,872.83 $
+
+				Compte No. 2
 
 					Identifiant    : 84111204
 					Solde cheques  : 9,981,778.81 $
 					Solde epargnes : 773,092.32 $
 
+				Compte No. 3
+
 					Identifiant    : 72534576
 					Solde cheques  : 1,072,667.40 $
 					Solde epargnes : 9,610,019.48 $
 
+				Compte No. 4
+
 					Identifiant    : 38538953
 					Solde cheques  : 7,738,822.98 $
 					Solde epargnes : 8,183,722.80 $
+
+				Compte No. 5
 
 					Identifiant    : 95519984
 					Solde cheques  : 851,321.19 $
@@ -273,21 +351,31 @@ Banque numéro: 2
 			Prénom : Joanie
 			Nom     : Willis
 
+				Compte No. 1
+
 					Identifiant    : 13100148
 					Solde cheques  : 4,289,226.29 $
 					Solde epargnes : 9,100,249.53 $
+
+				Compte No. 2
 
 					Identifiant    : 49486992
 					Solde cheques  : 2,619,891.46 $
 					Solde epargnes : 1,431,356.59 $
 
+				Compte No. 3
+
 					Identifiant    : 44340261
 					Solde cheques  : 8,672,418.11 $
 					Solde epargnes : 5,810,416.98 $
 
+				Compte No. 4
+
 					Identifiant    : 78896511
 					Solde cheques  : 1,400,061.14 $
 					Solde epargnes : 8,532,524.87 $
+
+				Compte No. 5
 
 					Identifiant    : 81567991
 					Solde cheques  : 3,483,111.52 $
@@ -301,6 +389,8 @@ Banque numéro: 2
 			Prénom : Pierre
 			Nom     : Wallace
 
+				Compte No. 1
+
 					Identifiant    : 26818535
 					Solde cheques  : 2,399,162.00 $
 					Solde epargnes : 1,251,587.64 $
@@ -313,9 +403,13 @@ Banque numéro: 2
 			Prénom : Kim
 			Nom     : Reyes
 
+				Compte No. 1
+
 					Identifiant    : 54078796
 					Solde cheques  : 4,154,519.47 $
 					Solde epargnes : 500,529.98 $
+
+				Compte No. 2
 
 					Identifiant    : 50102758
 					Solde cheques  : 9,457,041.31 $
@@ -329,9 +423,13 @@ Banque numéro: 2
 			Prénom : Florent
 			Nom     : Barnes
 
+				Compte No. 1
+
 					Identifiant    : 68168171
 					Solde cheques  : 9,002,548.31 $
 					Solde epargnes : 3,668,619.84 $
+
+				Compte No. 2
 
 					Identifiant    : 73842835
 					Solde cheques  : 7,810,710.13 $
@@ -345,13 +443,19 @@ Banque numéro: 2
 			Prénom : Léonie
 			Nom     : Moore
 
+				Compte No. 1
+
 					Identifiant    : 77921801
 					Solde cheques  : 935,609.36 $
 					Solde epargnes : 1,319,733.00 $
 
+				Compte No. 2
+
 					Identifiant    : 34842257
 					Solde cheques  : 9,578,877.20 $
 					Solde epargnes : 5,756,728.42 $
+
+				Compte No. 3
 
 					Identifiant    : 71173241
 					Solde cheques  : 2,341,320.88 $
@@ -365,6 +469,8 @@ Banque numéro: 2
 			Prénom : Michel
 			Nom     : Adams
 
+				Compte No. 1
+
 					Identifiant    : 68958820
 					Solde cheques  : 404,835.13 $
 					Solde epargnes : 1,682,961.17 $
@@ -377,17 +483,25 @@ Banque numéro: 2
 			Prénom : Nathalie
 			Nom     : Vasquez
 
+				Compte No. 1
+
 					Identifiant    : 24635057
 					Solde cheques  : 6,509,856.71 $
 					Solde epargnes : 4,509,070.10 $
+
+				Compte No. 2
 
 					Identifiant    : 20709792
 					Solde cheques  : 2,923,964.68 $
 					Solde epargnes : 7,429,513.70 $
 
+				Compte No. 3
+
 					Identifiant    : 54852765
 					Solde cheques  : 6,868,710.11 $
 					Solde epargnes : 1,819,298.50 $
+
+				Compte No. 4
 
 					Identifiant    : 96376956
 					Solde cheques  : 6,238,132.99 $
@@ -401,21 +515,31 @@ Banque numéro: 2
 			Prénom : Charles
 			Nom     : Bryant
 
+				Compte No. 1
+
 					Identifiant    : 40634716
 					Solde cheques  : 7,729,198.97 $
 					Solde epargnes : 4,840,548.43 $
+
+				Compte No. 2
 
 					Identifiant    : 62674098
 					Solde cheques  : 4,472,083.29 $
 					Solde epargnes : 3,040,239.24 $
 
+				Compte No. 3
+
 					Identifiant    : 30143075
 					Solde cheques  : 5,118,006.31 $
 					Solde epargnes : 8,135,310.99 $
 
+				Compte No. 4
+
 					Identifiant    : 77614035
 					Solde cheques  : 6,422,682.64 $
 					Solde epargnes : 3,786,094.00 $
+
+				Compte No. 5
 
 					Identifiant    : 32958561
 					Solde cheques  : 5,294,936.61 $
@@ -424,35 +548,45 @@ Banque numéro: 2
 			Total cheques : 29,036,907.82 $
 			Total epargne : 23,283,940.70 $
 
-Banque numéro: 3
+Banque No. 3
 
 	Nom               : Banque royale du Canada
 	No. institution   : 003
-	Nombre de clients : 010
-	Nombre de comptes : 035
+	Nombre de clients : 10
+	Nombre de comptes : 35
 
-    Détails des comptes clients :
+	Détails des comptes clients :
 
 		Client No. 1
 
 			Prénom : Pénélope
 			Nom     : Martin
 
+				Compte No. 1
+
 					Identifiant    : 55536135
 					Solde cheques  : 5,501,564.00 $
 					Solde epargnes : 6,224,751.00 $
+
+				Compte No. 2
 
 					Identifiant    : 72916905
 					Solde cheques  : 2,063,617.20 $
 					Solde epargnes : 3,014,058.26 $
 
+				Compte No. 3
+
 					Identifiant    : 90181292
 					Solde cheques  : 2,306,706.84 $
 					Solde epargnes : 8,418,979.98 $
 
+				Compte No. 4
+
 					Identifiant    : 96336228
 					Solde cheques  : 2,273,876.95 $
 					Solde epargnes : 1,710,757.97 $
+
+				Compte No. 5
 
 					Identifiant    : 59249398
 					Solde cheques  : 4,369,230.96 $
@@ -466,13 +600,19 @@ Banque numéro: 3
 			Prénom : Claude
 			Nom     : Butler
 
+				Compte No. 1
+
 					Identifiant    : 22476200
 					Solde cheques  : 1,843,860.96 $
 					Solde epargnes : 9,046,495.52 $
 
+				Compte No. 2
+
 					Identifiant    : 23436461
 					Solde cheques  : 4,372,112.39 $
 					Solde epargnes : 1,123,549.89 $
+
+				Compte No. 3
 
 					Identifiant    : 33175743
 					Solde cheques  : 4,087,199.00 $
@@ -486,17 +626,25 @@ Banque numéro: 3
 			Prénom : Stéphanie
 			Nom     : Ryan
 
+				Compte No. 1
+
 					Identifiant    : 85664553
 					Solde cheques  : 7,093,338.18 $
 					Solde epargnes : 2,225,300.29 $
+
+				Compte No. 2
 
 					Identifiant    : 32885396
 					Solde cheques  : 2,956,574.17 $
 					Solde epargnes : 3,155,107.25 $
 
+				Compte No. 3
+
 					Identifiant    : 83285634
 					Solde cheques  : 5,082,829.70 $
 					Solde epargnes : 873,489.98 $
+
+				Compte No. 4
 
 					Identifiant    : 31917247
 					Solde cheques  : 8,002,881.40 $
@@ -510,17 +658,25 @@ Banque numéro: 3
 			Prénom : Mathieu
 			Nom     : Arnold
 
+				Compte No. 1
+
 					Identifiant    : 93633726
 					Solde cheques  : 4,877,550.91 $
 					Solde epargnes : 5,756,847.19 $
+
+				Compte No. 2
 
 					Identifiant    : 41498539
 					Solde cheques  : 4,575,780.53 $
 					Solde epargnes : 9,646,523.76 $
 
+				Compte No. 3
+
 					Identifiant    : 27693573
 					Solde cheques  : 5,188,437.50 $
 					Solde epargnes : 2,277,381.82 $
+
+				Compte No. 4
 
 					Identifiant    : 32597547
 					Solde cheques  : 6,224,058.56 $
@@ -534,9 +690,13 @@ Banque numéro: 3
 			Prénom : Sylvie
 			Nom     : Morrison
 
+				Compte No. 1
+
 					Identifiant    : 65444021
 					Solde cheques  : 9,847,345.67 $
 					Solde epargnes : 394,782.32 $
+
+				Compte No. 2
 
 					Identifiant    : 52595996
 					Solde cheques  : 9,101,344.49 $
@@ -550,9 +710,13 @@ Banque numéro: 3
 			Prénom : Marc
 			Nom     : Jordan
 
+				Compte No. 1
+
 					Identifiant    : 41649356
 					Solde cheques  : 3,353,569.00 $
 					Solde epargnes : 6,779,226.91 $
+
+				Compte No. 2
 
 					Identifiant    : 84774576
 					Solde cheques  : 7,212,275.00 $
@@ -566,13 +730,19 @@ Banque numéro: 3
 			Prénom : Francesca
 			Nom     : Chavez
 
+				Compte No. 1
+
 					Identifiant    : 62673768
 					Solde cheques  : 7,800,917.10 $
 					Solde epargnes : 7,157,154.95 $
 
+				Compte No. 2
+
 					Identifiant    : 59475125
 					Solde cheques  : 8,914,296.45 $
 					Solde epargnes : 3,357,611.18 $
+
+				Compte No. 3
 
 					Identifiant    : 92547429
 					Solde cheques  : 1,982,046.67 $
@@ -586,13 +756,19 @@ Banque numéro: 3
 			Prénom : Luc
 			Nom     : Jimenez
 
+				Compte No. 1
+
 					Identifiant    : 35725512
 					Solde cheques  : 4,783,753.40 $
 					Solde epargnes : 9,058,578.70 $
 
+				Compte No. 2
+
 					Identifiant    : 78148020
 					Solde cheques  : 6,166,627.39 $
 					Solde epargnes : 8,581,833.92 $
+
+				Compte No. 3
 
 					Identifiant    : 77835618
 					Solde cheques  : 5,771,514.19 $
@@ -606,21 +782,31 @@ Banque numéro: 3
 			Prénom : Simone
 			Nom     : Meyer
 
+				Compte No. 1
+
 					Identifiant    : 44240126
 					Solde cheques  : 255,836.24 $
 					Solde epargnes : 4,891,509.29 $
+
+				Compte No. 2
 
 					Identifiant    : 61103948
 					Solde cheques  : 9,787,353.68 $
 					Solde epargnes : 7,135,991.63 $
 
+				Compte No. 3
+
 					Identifiant    : 16826886
 					Solde cheques  : 4,705,881.87 $
 					Solde epargnes : 577,830.68 $
 
+				Compte No. 4
+
 					Identifiant    : 14855511
 					Solde cheques  : 446,539.57 $
 					Solde epargnes : 735,748.77 $
+
+				Compte No. 5
 
 					Identifiant    : 57771780
 					Solde cheques  : 935,800.95 $
@@ -634,17 +820,25 @@ Banque numéro: 3
 			Prénom : Jean
 			Nom     : Lopez
 
+				Compte No. 1
+
 					Identifiant    : 80125050
 					Solde cheques  : 1,519,169.14 $
 					Solde epargnes : 6,563,203.61 $
+
+				Compte No. 2
 
 					Identifiant    : 94060961
 					Solde cheques  : 9,709,011.53 $
 					Solde epargnes : 6,478,428.69 $
 
+				Compte No. 3
+
 					Identifiant    : 21691559
 					Solde cheques  : 4,541,481.52 $
 					Solde epargnes : 4,334,663.34 $
+
+				Compte No. 4
 
 					Identifiant    : 61194129
 					Solde cheques  : 826,552.74 $
@@ -653,23 +847,27 @@ Banque numéro: 3
 			Total cheques : 16,596,214.93 $
 			Total epargne : 18,690,799.33 $
 
-Banque numéro: 4
+Banque No. 4
 
 	Nom               : Banque canadienne impériale de commerce
 	No. institution   : 010
-	Nombre de clients : 010
-	Nombre de comptes : 029
+	Nombre de clients : 10
+	Nombre de comptes : 29
 
-    Détails des comptes clients :
+	Détails des comptes clients :
 
 		Client No. 1
 
 			Prénom : Michaeala
 			Nom     : Harris
 
+				Compte No. 1
+
 					Identifiant    : 52245158
 					Solde cheques  : 8,299,440.28 $
 					Solde epargnes : 7,982,342.18 $
+
+				Compte No. 2
 
 					Identifiant    : 11071187
 					Solde cheques  : 3,984,137.32 $
@@ -683,17 +881,25 @@ Banque numéro: 4
 			Prénom : Steven
 			Nom     : Stevens
 
+				Compte No. 1
+
 					Identifiant    : 40341038
 					Solde cheques  : 6,278,824.13 $
 					Solde epargnes : 2,933,442.71 $
+
+				Compte No. 2
 
 					Identifiant    : 24596408
 					Solde cheques  : 180,817.34 $
 					Solde epargnes : 9,855,946.83 $
 
+				Compte No. 3
+
 					Identifiant    : 81485608
 					Solde cheques  : 1,054,050.37 $
 					Solde epargnes : 3,722,758.40 $
+
+				Compte No. 4
 
 					Identifiant    : 38009354
 					Solde cheques  : 4,881,644.42 $
@@ -707,21 +913,31 @@ Banque numéro: 4
 			Prénom : Mélanie
 			Nom     : James
 
+				Compte No. 1
+
 					Identifiant    : 57567982
 					Solde cheques  : 509,141.89 $
 					Solde epargnes : 7,375,307.99 $
+
+				Compte No. 2
 
 					Identifiant    : 24908386
 					Solde cheques  : 4,186,934.71 $
 					Solde epargnes : 5,459,930.64 $
 
+				Compte No. 3
+
 					Identifiant    : 64178375
 					Solde cheques  : 4,157,433.82 $
 					Solde epargnes : 9,839,512.90 $
 
+				Compte No. 4
+
 					Identifiant    : 33667416
 					Solde cheques  : 6,980,066.35 $
 					Solde epargnes : 6,620,485.62 $
+
+				Compte No. 5
 
 					Identifiant    : 68867119
 					Solde cheques  : 6,971,615.20 $
@@ -735,6 +951,8 @@ Banque numéro: 4
 			Prénom : Joseph
 			Nom     : Allen
 
+				Compte No. 1
+
 					Identifiant    : 72029305
 					Solde cheques  : 9,973,522.31 $
 					Solde epargnes : 1,666,929.77 $
@@ -747,13 +965,19 @@ Banque numéro: 4
 			Prénom : Isabelle
 			Nom     : Vasquez
 
+				Compte No. 1
+
 					Identifiant    : 77333643
 					Solde cheques  : 8,837,663.66 $
 					Solde epargnes : 6,691,774.87 $
 
+				Compte No. 2
+
 					Identifiant    : 50548744
 					Solde cheques  : 3,661,873.62 $
 					Solde epargnes : 4,604,963.80 $
+
+				Compte No. 3
 
 					Identifiant    : 17543924
 					Solde cheques  : 1,544,414.76 $
@@ -767,9 +991,13 @@ Banque numéro: 4
 			Prénom : Yvan
 			Nom     : Scott
 
+				Compte No. 1
+
 					Identifiant    : 30607927
 					Solde cheques  : 1,904,803.33 $
 					Solde epargnes : 4,250,994.18 $
+
+				Compte No. 2
 
 					Identifiant    : 92200362
 					Solde cheques  : 1,203,996.61 $
@@ -783,9 +1011,13 @@ Banque numéro: 4
 			Prénom : Béatrice
 			Nom     : Sanchez
 
+				Compte No. 1
+
 					Identifiant    : 23714022
 					Solde cheques  : 5,829,864.00 $
 					Solde epargnes : 2,528,062.15 $
+
+				Compte No. 2
 
 					Identifiant    : 84323528
 					Solde cheques  : 6,127,686.41 $
@@ -799,21 +1031,31 @@ Banque numéro: 4
 			Prénom : Lorne
 			Nom     : Morales
 
+				Compte No. 1
+
 					Identifiant    : 58450819
 					Solde cheques  : 7,319,466.43 $
 					Solde epargnes : 3,405,123.80 $
+
+				Compte No. 2
 
 					Identifiant    : 99652124
 					Solde cheques  : 1,075,128.46 $
 					Solde epargnes : 9,035,897.56 $
 
+				Compte No. 3
+
 					Identifiant    : 17035798
 					Solde cheques  : 8,188,349.46 $
 					Solde epargnes : 2,579,188.28 $
 
+				Compte No. 4
+
 					Identifiant    : 49841044
 					Solde cheques  : 227,296.39 $
 					Solde epargnes : 4,256,010.95 $
+
+				Compte No. 5
 
 					Identifiant    : 19598750
 					Solde cheques  : 1,625,186.80 $
@@ -827,6 +1069,8 @@ Banque numéro: 4
 			Prénom : Anabelle
 			Nom     : Rodriguez
 
+				Compte No. 1
+
 					Identifiant    : 96570827
 					Solde cheques  : 5,959,199.30 $
 					Solde epargnes : 4,726,156.82 $
@@ -839,17 +1083,25 @@ Banque numéro: 4
 			Prénom : William
 			Nom     : Ruiz
 
+				Compte No. 1
+
 					Identifiant    : 10417081
 					Solde cheques  : 6,395,295.10 $
 					Solde epargnes : 320,306.41 $
+
+				Compte No. 2
 
 					Identifiant    : 79741942
 					Solde cheques  : 3,197,811.57 $
 					Solde epargnes : 5,323,590.75 $
 
+				Compte No. 3
+
 					Identifiant    : 83557290
 					Solde cheques  : 4,088,342.10 $
 					Solde epargnes : 8,195,169.37 $
+
+				Compte No. 4
 
 					Identifiant    : 88182523
 					Solde cheques  : 9,684,603.27 $
@@ -858,19 +1110,21 @@ Banque numéro: 4
 			Total cheques : 23,366,051.86 $
 			Total epargne : 19,107,545.82 $
 
-Banque numéro: 5
+Banque No. 5
 
 	Nom               : Banque Scotia
 	No. institution   : 002
-	Nombre de clients : 010
-	Nombre de comptes : 024
+	Nombre de clients : 10
+	Nombre de comptes : 24
 
-    Détails des comptes clients :
+	Détails des comptes clients :
 
 		Client No. 1
 
 			Prénom : Anastasia
 			Nom     : Murphy
+
+				Compte No. 1
 
 					Identifiant    : 17599227
 					Solde cheques  : 6,073,426.30 $
@@ -884,6 +1138,8 @@ Banque numéro: 5
 			Prénom : Tim
 			Nom     : Lopez
 
+				Compte No. 1
+
 					Identifiant    : 45980439
 					Solde cheques  : 2,653,276.81 $
 					Solde epargnes : 1,551,923.54 $
@@ -896,13 +1152,19 @@ Banque numéro: 5
 			Prénom : Annie
 			Nom     : Wood
 
+				Compte No. 1
+
 					Identifiant    : 33388336
 					Solde cheques  : 5,218,629.32 $
 					Solde epargnes : 4,589,901.22 $
 
+				Compte No. 2
+
 					Identifiant    : 82006163
 					Solde cheques  : 5,180,522.00 $
 					Solde epargnes : 9,418,398.35 $
+
+				Compte No. 3
 
 					Identifiant    : 48827245
 					Solde cheques  : 9,575,684.12 $
@@ -916,9 +1178,13 @@ Banque numéro: 5
 			Prénom : Nick
 			Nom     : Brooks
 
+				Compte No. 1
+
 					Identifiant    : 91958283
 					Solde cheques  : 6,728,083.71 $
 					Solde epargnes : 6,938,873.84 $
+
+				Compte No. 2
 
 					Identifiant    : 26366233
 					Solde cheques  : 2,560,414.52 $
@@ -932,21 +1198,31 @@ Banque numéro: 5
 			Prénom : Stéphanie
 			Nom     : Nelson
 
+				Compte No. 1
+
 					Identifiant    : 33742263
 					Solde cheques  : 3,434,142.88 $
 					Solde epargnes : 7,792,462.92 $
+
+				Compte No. 2
 
 					Identifiant    : 23098509
 					Solde cheques  : 43,758.19 $
 					Solde epargnes : 5,985,723.15 $
 
+				Compte No. 3
+
 					Identifiant    : 22246171
 					Solde cheques  : 9,171,345.87 $
 					Solde epargnes : 28,156.67 $
 
+				Compte No. 4
+
 					Identifiant    : 88236298
 					Solde cheques  : 4,202,033.75 $
 					Solde epargnes : 4,585,005.30 $
+
+				Compte No. 5
 
 					Identifiant    : 62173413
 					Solde cheques  : 3,205,930.71 $
@@ -960,6 +1236,8 @@ Banque numéro: 5
 			Prénom : Nathaniel
 			Nom     : Butler
 
+				Compte No. 1
+
 					Identifiant    : 59487418
 					Solde cheques  : 1,766,883.26 $
 					Solde epargnes : 7,188,110.45 $
@@ -971,6 +1249,8 @@ Banque numéro: 5
 
 			Prénom : Laurence
 			Nom     : Reyes
+
+				Compte No. 1
 
 					Identifiant    : 23045932
 					Solde cheques  : 3,369,207.96 $
@@ -984,17 +1264,25 @@ Banque numéro: 5
 			Prénom : Alexander
 			Nom     : Dixon
 
+				Compte No. 1
+
 					Identifiant    : 86772800
 					Solde cheques  : 2,459,352.65 $
 					Solde epargnes : 9,202,443.79 $
+
+				Compte No. 2
 
 					Identifiant    : 65984962
 					Solde cheques  : 7,652,162.94 $
 					Solde epargnes : 1,856,817.94 $
 
+				Compte No. 3
+
 					Identifiant    : 41585714
 					Solde cheques  : 892,694.33 $
 					Solde epargnes : 5,745,304.83 $
+
+				Compte No. 4
 
 					Identifiant    : 56192459
 					Solde cheques  : 5,424,842.10 $
@@ -1008,17 +1296,25 @@ Banque numéro: 5
 			Prénom : Marie-Andrée
 			Nom     : Fisher
 
+				Compte No. 1
+
 					Identifiant    : 46162723
 					Solde cheques  : 6,783,747.79 $
 					Solde epargnes : 6,326,040.18 $
+
+				Compte No. 2
 
 					Identifiant    : 16837003
 					Solde cheques  : 2,087,423.44 $
 					Solde epargnes : 7,061,009.84 $
 
+				Compte No. 3
+
 					Identifiant    : 31592454
 					Solde cheques  : 1,197,705.17 $
 					Solde epargnes : 6,062,571.35 $
+
+				Compte No. 4
 
 					Identifiant    : 21098705
 					Solde cheques  : 4,627,528.76 $
@@ -1032,9 +1328,13 @@ Banque numéro: 5
 			Prénom : Tanner
 			Nom     : Jones
 
+				Compte No. 1
+
 					Identifiant    : 26551701
 					Solde cheques  : 6,606,202.60 $
 					Solde epargnes : 4,139,402.68 $
+
+				Compte No. 2
 
 					Identifiant    : 31595728
 					Solde cheques  : 8,277,642.92 $

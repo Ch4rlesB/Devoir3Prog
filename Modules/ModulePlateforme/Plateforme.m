@@ -106,12 +106,12 @@ classdef Plateforme < handle
             
             %Écrit l'information demandée dans le rapport.
             for i=1:size(ref.tabBanques, 2)
-                fprintf(noFichier,'Banque numéro: %g\n\n',i);
+                fprintf(noFichier,'Banque No. %g\n\n',i);
                 fprintf(noFichier,'	Nom               : %s\n',ref.tabBanques(i).getNom());
                 fprintf(noFichier,'	No. institution   : %s\n',ref.tabBanques(i).getNumero());
-                fprintf(noFichier,'	Nombre de clients : %03g\n',ref.tabBanques(i).getNbClient());
-                fprintf(noFichier,'	Nombre de comptes : %03g\n\n',ref.tabBanques(i).getNbCompte());
-                fprintf(noFichier,'    Détails des comptes clients :\n\n');
+                fprintf(noFichier,'	Nombre de clients : %g\n',ref.tabBanques(i).getNbClient());
+                fprintf(noFichier,'	Nombre de comptes : %g\n\n',ref.tabBanques(i).getNbCompte());
+                fprintf(noFichier,'\tDétails des comptes clients :\n\n');
 
                 for j=1:ref.tabBanques(i).getNbClient()
                     fprintf(noFichier,'		Client No. %g\n\n',j);
@@ -120,6 +120,7 @@ classdef Plateforme < handle
                     totalCheques = 0;
                     totalEpargne = 0;
                     for k=1:ref.tabBanques(i).ObtenirClient(j).getNbComptes()
+                        fprintf(noFichier,'\t\t\t\tCompte No. %g\n\n',k);
                         fprintf(noFichier,'					Identifiant    : %s\n',ref.tabBanques(i).ObtenirClient(j).ObtenirCompte(k).getIdentifiant());
                         soldeCheque = TransformerFormatBancaire(ref.tabBanques(i).ObtenirClient(j).ObtenirCompte(k).getSoldeCheque());
                         totalCheques = totalCheques + ref.tabBanques(i).ObtenirClient(j).ObtenirCompte(k).getSoldeCheque();

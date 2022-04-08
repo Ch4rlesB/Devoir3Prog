@@ -7,8 +7,7 @@ Banque No. 1
 
 	Détails des comptes clients :
 
-		Client No. 10.
-
+		Client No. 1
 
 			Prénom : Charley
 			Nom     : Porter
