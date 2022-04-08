@@ -68,7 +68,7 @@ classdef Plateforme < handle
             %Decortique chaque ligne du journal de transaction et séprare
             %la ligne en les différentes valeurs utiles
             while ~feof(noFichier)
-                donnees = fscanf(noFichier,'%c%c%c,%c,%g,%c,%g',7);
+                donnees = fscanf(noFichier,'%c%c%c,%c,%g,%c,%g\n',7);
                 noInst = char.empty();
                 noInst = [char(donnees(1)),char(donnees(2)),char(donnees(3))];
                 typeTrans = char(donnees(4));
